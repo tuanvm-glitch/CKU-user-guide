@@ -20,7 +20,7 @@ Use this rule to change how a shipping method is labeled at checkout.
 6. Add multiple mappings if needed
 7. Click **Save**
 
-https://prnt.sc/nADP8qzND7ta
+{% embed url="https://prnt.sc/nADP8qzND7ta" %}
 
 {% hint style="warning" %}
 The **Original name** must match exactly as shown in your Shopify Shipping settings. Even a small difference (spacing, capitalization) will prevent the rule from matching.

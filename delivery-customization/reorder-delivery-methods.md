@@ -20,7 +20,7 @@ Use this rule to control the order in which shipping options appear at checkout.
    - Methods listed here will appear first; unlisted methods follow in their default order
 6. Click **Save**
 
-https://prnt.sc/uH6t4miXQkxj
+{% embed url="https://prnt.sc/uH6t4miXQkxj" %}
 
 {% hint style="info" %}
 **Tip:** You don't need to list all delivery methods — only the ones you want to prioritize. Unlisted methods will still appear, just after the ones you've explicitly ordered.

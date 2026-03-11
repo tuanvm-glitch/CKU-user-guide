@@ -21,7 +21,7 @@ Use this rule to remove specific shipping options from checkout when conditions 
    - **Show only specific methods** — Hide everything except selected methods
 6. Click **Save**
 
-https://prnt.sc/LVq9yhotNMAU
+{% embed url="https://prnt.sc/LVq9yhotNMAU" %}
 
 {% hint style="danger" %}
 Be careful with **Hide all** — if no delivery methods remain visible, buyers cannot complete their purchase. Always test before activating.

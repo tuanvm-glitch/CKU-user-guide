@@ -21,7 +21,7 @@ All rule types support trigger conditions — so rules can apply only when speci
 1. Go to **Checkout Customization** in the left menu → **Delivery** tab
 2. Click **Create rule**
 
-https://prnt.sc/fowzlxrtyiux
+{% embed url="https://prnt.sc/fowzlxrtyiux" %}
 
 3. Choose a rule type: Hide, Rename, or Reorder
 4. Set a **Rule name** and **Status** (Active / Inactive)
