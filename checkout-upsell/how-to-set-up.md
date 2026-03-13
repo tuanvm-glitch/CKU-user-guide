@@ -64,7 +64,7 @@ You only need to do this once. After the block is added, all your offers will di
 
 In the app sidebar, click **Offers** to see all your upsell offers.
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/1YhyHHRLycno.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/HtD2SCDq13Hu.webp" %}
 
 ### List page overview
 
@@ -83,7 +83,7 @@ In the app sidebar, click **Offers** to see all your upsell offers.
 2. Select **Checkout Upsell**
 3. Click **Select**
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/8yJPaKq5Hxyq.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/dzFqCTDZpv8y.webp" %}
 
 ---
 
@@ -93,7 +93,7 @@ The editor opens with two columns:
 - **Left** — Step 1 (Triggers), Step 2 (Products), Step 3 (Advanced Settings)
 - **Right** — Offer name, Status, App block status, Live preview
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/h0fBVJ3vNeC0.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/PIsa0XHugsrC.webp" %}
 
 ### Expand Step 1 and choose a mode
 
@@ -104,13 +104,11 @@ Click the **Step 1** header to expand. Two options:
 | **No condition** | Offer **always** shows to all buyers |
 | **Set conditions** | Offer only shows when **all** conditions are satisfied (AND logic) |
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/oQ8yhuujpbWF.webp" %}
-
 ### Set conditions
 
 When you select **Set conditions**, a condition builder appears. You can add up to **4 conditions** (each type used only once). Click **"+ Add 'AND' condition"** to add rows.
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/5RxaUXnUsgde.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/qPmBGBPT1RC2.webp" %}
 
 ### Available condition types
 
@@ -156,7 +154,7 @@ All conditions use **AND logic** — every condition must be true for the offer 
 
 Click the **Step 2** header to expand the product section.
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/sR32BfEFsBxI.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/fYGAAtYdCsTC.webp" %}
 
 ### Add products
 
@@ -229,7 +227,7 @@ Click the **Step 3** header to expand. Two tabs: **Style** and **Settings**.
 
 ### Style tab
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/TUTM54ca6ptM.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/vihUCqGgMck8.webp" %}
 
 #### Content section
 
@@ -256,6 +254,8 @@ Button color follows your Shopify checkout branding — it cannot be changed fro
 {% endhint %}
 
 ### Settings tab
+
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/0tUPbtYMQdv8.webp" %}
 
 The Settings tab contains offer behavior and scheduling options.
 
@@ -318,7 +318,7 @@ When multiple offers match the same buyer's cart, only **one** is shown — the 
 4. **Drag and drop** to reorder — top of list = priority 1 (highest)
 5. Click **Save**
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/ecN6APXFPr1p.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/Hg9awjuau0Kc.webp" %}
 
 {% hint style="info" %}
 **Tip:** Put your highest-converting or time-sensitive offers at priority 1. You can safely schedule future offers at high priority without affecting current ones — scheduled/expired offers are automatically skipped.
