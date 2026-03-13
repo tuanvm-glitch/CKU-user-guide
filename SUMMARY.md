@@ -22,10 +22,6 @@
 ## 🚚 Delivery Customization
 
 * [How to set up](delivery-customization/how-to-set-up.md)
-* [Hide a delivery method](delivery-customization/hide-a-delivery-method.md)
-* [Rename a delivery method](delivery-customization/rename-a-delivery-method.md)
-* [Reorder delivery methods](delivery-customization/reorder-delivery-methods.md)
-* [Trigger conditions](delivery-customization/trigger-conditions.md)
 
 ## ❓ Troubleshooting
 
