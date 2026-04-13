@@ -212,4 +212,9 @@ Lưu ý: Contact leader hoặc CS member cùng team để hỏi nếu vẫn chư
 - `user-guide/cku/extra-widgets-cart-editor.md` — Cart Editor
 - `user-guide/cku/extra-widgets-custom-banners.md` — Custom Banners
 - `user-guide/cku/extra-widgets-custom-buttons.md` — Custom Buttons
+- `user-guide/cku/extra-widgets-trust-badges.md` — Trust Badges
 - `user-guide/cku/checkout-validations-custom-rules.md` — Custom Rules
+- `user-guide/cku/checkout-validations-geo-restriction.md` — Geo Restriction
+- `user-guide/cku/checkout-validations-address-validation.md` — Address Validation
+- `user-guide/cku/checkout-validations-regex-validation.md` — Regex Validation
+- `user-guide/cku/checkout-customization-shipping-discount.md` — Shipping Discount
