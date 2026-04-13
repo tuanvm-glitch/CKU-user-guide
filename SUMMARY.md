@@ -39,3 +39,4 @@
 * [Geo Restriction](checkout-validations/geo-restriction.md)
 * [Address Validation](checkout-validations/address-validation.md)
 * [Regex Validation](checkout-validations/regex-validation.md)
+* [VAT Validation](checkout-validations/vat-validation.md)
