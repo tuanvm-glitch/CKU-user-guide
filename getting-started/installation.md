@@ -10,7 +10,7 @@ The app will appear in your Shopify admin under **Apps**.
 
 ## Activate Checkout Widgets (Shopify Plus only)
 
-To use Checkout Upsell Block and Extra Widgets (Discount List, Trust Badges, Testimonials, Image Carousel), you must add the app blocks to your checkout theme:
+To use Checkout Upsell Block and Extra Widgets (Discount List, Trust Badges, Testimonials, Image Carousel, Custom Banners, Custom Buttons, Cart Editor), you must add the app blocks to your checkout theme:
 
 1. Go to **Shopify Admin** → **Online Store** → **Themes**
 2. Click **Customize** on your active theme
@@ -20,7 +20,7 @@ To use Checkout Upsell Block and Extra Widgets (Discount List, Trust Badges, Tes
 6. Click **Save**
 
 {% hint style="info" %}
-This step is only required for Checkout UI Extension widgets (Upsell Block, Discount List, Trust Badges, Testimonials, Image Carousel). Payment Customization, Delivery Customization, and Checkout Validations work automatically without theme changes.
+This step is only required for Checkout UI Extension widgets (Upsell Block, Discount List, Trust Badges, Testimonials, Image Carousel, Custom Banners, Custom Buttons, Cart Editor). Payment Customization, Delivery Customization, and Checkout Validations work automatically without theme changes.
 {% endhint %}
 
 {% hint style="warning" %}

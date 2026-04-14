@@ -248,6 +248,17 @@ Last synced: 2026-04-07T03:59:16.571Z
 - `user-guide/cd/footer-checkout-button.md` — Checkout button
 - `user-guide/cd/footer-trust-badges.md` — Trust badges
 
+### PO (9)
+- `user-guide/po/getting-started.md` — Getting Started
+- `user-guide/po/getting-started/readme.md` — Welcome
+- `user-guide/po/manage.md` — Manage
+- `user-guide/po/manage/campaign-list.md` — Campaign List
+- `user-guide/po/manage/orders.md` — Orders & Reports
+- `user-guide/po/pre-order-campaign.md` — Pre-Order Campaign
+- `user-guide/po/pre-order-campaign/campaign-settings.md` — Campaign Settings
+- `user-guide/po/pre-order-campaign/payment-settings.md` — Payment Settings
+- `user-guide/po/pre-order-campaign/display-settings.md` — Display Settings
+
 ## Static
 
 - `shopify-discount-combinations.md` — Shopify discount combination rules

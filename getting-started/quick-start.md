@@ -8,7 +8,7 @@ Install AOV.AI from the Shopify App Store and open it from your Shopify Admin �
 
 ## Step 2: Check your plan
 
-- **Shopify Plus?** You can use all features — Checkout Upsell, Extra Widgets (Discount List, Trust Badges, Testimonials, Image Carousel), Payment & Delivery Customization, and Checkout Validations.
+- **Shopify Plus?** You can use all features — Checkout Upsell, Extra Widgets (Discount List, Trust Badges, Testimonials, Image Carousel, Custom Banners, Custom Buttons, Cart Editor), Payment & Delivery Customization, and Checkout Validations.
 - **Other plans?** Payment Customization, Delivery Customization, and Checkout Validations are available right away — no extra setup needed.
 
 See the **Plans & Requirements** page for the full feature comparison.

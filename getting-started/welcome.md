@@ -11,15 +11,18 @@ AOV.AI helps you increase Average Order Value (AOV) by customizing the Shopify c
 | **Trust Badges** | Display trust signals and payment icons to boost buyer confidence. | Shopify Plus |
 | **Testimonials** | Show product reviews to build trust and boost checkout conversion. | Shopify Plus |
 | **Image Carousel** | Display a slideshow of images at checkout for promotions and branding. | Shopify Plus |
+| **Custom Banners** | Show informational, success, or warning banners at checkout. | Shopify Plus |
+| **Custom Buttons** | Add call-to-action buttons (call, link, email) at checkout. | Shopify Plus |
+| **Cart Editor** | Let buyers change variants, quantities, or remove items at checkout. | Shopify Plus |
 | **Payment Customization** | Hide, rename, or reorder payment methods based on conditions. | All plans |
 | **Delivery Customization** | Hide, rename, or reorder shipping methods based on conditions. | All plans |
-| **Checkout Validations** | Block checkout with custom rules — validate orders before payment. | All plans |
+| **Checkout Validations** | Block checkout with custom rules, geo restriction, address validation, and regex patterns. | All plans |
 
 ## How it works
 
 AOV.AI sits on top of Shopify's native checkout — it does not modify your theme's code. Features are powered by:
 
-- **Checkout UI Extensions** (Upsell Block, Discount List, Trust Badges, Testimonials, Image Carousel) — app blocks you add via the Theme Editor
+- **Checkout UI Extensions** (Upsell Block, Discount List, Trust Badges, Testimonials, Image Carousel, Custom Banners, Custom Buttons, Cart Editor) — app blocks you add via the Theme Editor
 - **Shopify Functions** (Payment Customization, Delivery Customization, Checkout Validations) — serverless rules that run at checkout evaluation time
 
 ## Next step
