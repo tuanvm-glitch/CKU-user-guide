@@ -108,15 +108,18 @@ Errors display directly below the VAT input field at checkout. Maximum 150 chara
 
 By default, the VAT field appears for **all checkouts**. Expand the **Conditions** section to narrow the scope.
 
-| Condition | Options | Description |
-|-----------|---------|-------------|
-| **Shipping country** | All countries / Specific countries | VAT field only appears when buyer ships to a matching country |
-| **Customer tag** | Include / Exclude specific tags | Only show VAT field for tagged customers (e.g., `B2B`, `wholesale`) |
+| Condition | Description |
+|-----------|-------------|
+| **Included product** | VAT field only appears when cart contains specific products or variants |
+| **Excluded product** | VAT field hidden when cart contains specific products or variants |
+| **Subtotal value** | VAT field only appears when cart subtotal meets a threshold (>, >=, <, <=, =) |
+| **Customer tag** | Only show for customers with specific tags (e.g., `B2B`, `wholesale`) |
+| **Shipping country** | VAT field only appears when buyer ships to specific countries |
 
 All conditions use **AND logic** — every condition must be true for the VAT field to appear.
 
 {% hint style="info" %}
-**Example:** Set shipping country to Germany, France, Italy + customer tag includes `B2B` → VAT field only appears for B2B customers shipping to those 3 countries.
+**Example:** Shipping country = Germany, France, Italy + Customer tag = `B2B` → VAT field only appears for B2B customers shipping to those 3 countries.
 {% endhint %}
 
 ---
