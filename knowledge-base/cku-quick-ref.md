@@ -217,4 +217,5 @@ Lưu ý: Contact leader hoặc CS member cùng team để hỏi nếu vẫn chư
 - `user-guide/cku/checkout-validations-geo-restriction.md` — Geo Restriction
 - `user-guide/cku/checkout-validations-address-validation.md` — Address Validation
 - `user-guide/cku/checkout-validations-regex-validation.md` — Regex Validation
+- `user-guide/cku/checkout-validations-vat-validation.md` — VAT Validation
 - `user-guide/cku/checkout-customization-shipping-discount.md` — Shipping Discount
