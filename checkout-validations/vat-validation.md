@@ -8,7 +8,7 @@ Collect and validate VAT numbers at checkout. Require buyers to enter a valid VA
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/9gzg6S0akF2s.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/BaiGRRPgUblb.webp" %}
 
 ## What it does
 
@@ -19,7 +19,7 @@ VAT Validation adds a VAT number input field to your checkout page. You control:
 - **Custom error messages** — show clear, localized errors when the field is empty or the format is invalid
 - **Conditions** — only show the VAT field for specific countries or customer tags (e.g., B2B, wholesale)
 
-The VAT number is saved as an order metafield — accessible in Order admin, CSV exports, and Shopify API.
+The VAT number is saved to the **order note** — accessible in Order admin and Shopify API.
 
 ---
 
@@ -70,25 +70,24 @@ Click **Create validation** (top right), then select **VAT Validation**.
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/t6mF1sGTZcLl.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/nqusdLRWVvyO.webp" %}
 
 ## Step 3: Configure VAT field settings
 
 | Setting | Description |
 |---------|-------------|
-| **Rule name** | A descriptive name (e.g., "Require VAT for EU orders") |
-| **Status** | **Active** — rule applies at checkout. **Testing** — only triggers for email `aov@testing.com`. **Deactivated** — saved but not applied. |
+| **Rule name** | A descriptive name (default: "VAT number validation") |
+| **Status** | **Active** — rule applies at checkout. **Test mode** — only triggers for email `aov@testing.com`. **Expired** — saved but not applied. |
 | **Field requirement** | **Required** — buyer must enter a valid VAT number. **Optional** — buyer can skip, but if entered, must be valid format. |
-| **Field label** | Label shown above the input (default: "VAT number") |
-| **Placeholder text** | Hint inside the empty field (default: "e.g. DE123456789") |
+| **Field label** | Label shown above the input at checkout (default: "VAT number") |
 
 {% hint style="info" %}
-**Tip:** Start with **Testing** status to verify the rule works correctly before activating it for all customers. Use `aov@testing.com` as the checkout email to see it in action.
+**Tip:** Start with **Test mode** status to verify the rule works correctly before activating it for all customers. Use `aov@testing.com` as the checkout email to see it in action.
 {% endhint %}
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/YgHi1bCSKVeA.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/j6tmXyZwGjYk.webp" %}
 
 ## Step 4: Configure error messages
 
@@ -103,7 +102,7 @@ Errors display directly below the VAT input field at checkout. Maximum 150 chara
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/Kgzn0uwuAfEs.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/Hu00cJsgc2Pu.webp" %}
 
 ## Step 5: Set conditions (optional)
 
@@ -128,7 +127,7 @@ Click **Save** (top right). The rule is now active based on its status.
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/q8Ivg8i0XrXD.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/1nC4ow09Lp46.webp" %}
 
 ## How format validation works
 
@@ -151,18 +150,18 @@ The system supports **40+ countries** including all EU member states and major n
 
 ## FAQ
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/8XflpIShJIuP.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/u97CUoc4vLxg.webp" %}
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/yj4Gp8IfQIYx.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/t0BSoFuDagUn.webp" %}
 
 **Q: What happens if the buyer uses Apple Pay or Google Pay?**
-A: VAT field does not appear for accelerated checkout methods. The App Failure Fallback setting allows these checkouts to proceed.
+A: VAT field does not appear for accelerated checkout methods (Shop Pay, Apple Pay, Google Pay). These checkouts proceed without VAT collection.
 
 **Q: Can I have multiple VAT validation rules?**
 A: Yes. Each rule can target different countries or customer segments with different settings.
 
 **Q: Where is the VAT number stored after checkout?**
-A: As an **order metafield**. You can view it in the Order detail page in Shopify Admin, export via CSV, or access via Shopify API.
+A: In the **order note** (format: `VAT: DE123456789`). You can view it in the Order detail page in Shopify Admin or access via Shopify API.
 
 **Q: Do I need Shopify Plus?**
 A: Yes. VAT Validation uses Checkout UI Extensions, which require a Shopify Plus plan.
