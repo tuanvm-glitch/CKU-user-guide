@@ -70,7 +70,7 @@ Click **Create validation** (top right), then select **VAT Validation**.
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/kRmK0NwmPO3g.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/t6mF1sGTZcLl.webp" %}
 
 ## Step 3: Configure VAT field settings
 
@@ -88,7 +88,7 @@ Click **Create validation** (top right), then select **VAT Validation**.
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/yB8Hi3tonwlK.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/YgHi1bCSKVeA.webp" %}
 
 ## Step 4: Configure error messages
 
@@ -103,7 +103,7 @@ Errors display directly below the VAT input field at checkout. Maximum 150 chara
 
 ---
 
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/AdoVt88VGS8L.webp" %}
+{% embed url="https://d2798l25hiaz3h.cloudfront.net/Kgzn0uwuAfEs.webp" %}
 
 ## Step 5: Set conditions (optional)
 
