@@ -1,18 +1,19 @@
 # Knowledge Base Index
 
-Last synced: 2026-04-07T03:59:16.571Z
+Last synced: 2026-04-24T10:34:18.704Z
 
 ## FAQ
 
-### CKU (6)
+### CKU (7)
 - `faq/cku/app-khong-work-thi-can-xin-quyen-gi.md` — App không work thì cần xin quyền gì? 
 - `faq/cku/hide-all-payment-method.md` — Hide all payment method
 - `faq/cku/discount-apply-hoat-dong-nhu-the-nao.md` — Discount apply hoạt động như thế nào?
 - `faq/cku/discount-list-co-work-voi-discount-cua-app-thu-3-khong.md` — Discount list có work với discount của app thứ 3 không? 
 - `faq/cku/trigger-condition-cua-campaign.md` — Trigger condition của campaign
 - `faq/cku/menu-navigation-khong-hien-thi-full-danh-sach-feature.md` — Menu navigation không hiển thị full danh sách feature
+- `faq/cku/ko-tim-thay-feature-cart-editor-trong-checkout-page.md` — Ko tìm thấy feature “Cart Editor” trong checkout page
 
-### FG (34)
+### FG (35)
 - `faq/fg/popup-ko-hien.md` — Popup ko hiện
 - `faq/fg/lua-chon-loai-campaign-phu-hop-cho-yeu-cau-setup-cua-mc.md` — Lựa chọn loại campaign phù hợp cho yêu cầu setup của MC
 - `faq/fg/page-bi-reload-sau-khi-add-reward.md` — Page bị reload sau khi add reward
@@ -47,9 +48,9 @@ Last synced: 2026-04-07T03:59:16.571Z
 - `faq/fg/free-gift-billing.md` — Free Gift billing
 - `faq/fg/milestone-hien-thi-trong-cart-nhung-khong-apply-discount-o-checkout.md` — Milestone hiển thị trong cart nhưng không apply discount ở checkout
 - `faq/fg/add-milestone-widget-vao-cart-page.md` — Add Milestone widget vào cart page
+- `faq/fg/gift-on-slide-cart-cua-nhieu-offers.md` — Gift on Slide Cart của nhiều offers
 
 ### BU (20)
-- `faq/bu/vo-hieu-hoa-volume-widget.md` — Vô hiệu hoá volume widget
 - `faq/bu/hien-thi-fbt-widget-trong-cart-drawer.md` — Hiển thị FBT widget trong Cart Drawer 
 - `faq/bu/out-of-stock-child-product-offer-co-work.md` — Out Of Stock child product - Offer có work?
 - `faq/bu/mc-ko-muon-offer-products-duoc-auto-select-o-fbt-table.md` — MC ko muốn offer products được auto select ở FBT table
@@ -69,6 +70,7 @@ Last synced: 2026-04-07T03:59:16.571Z
 - `faq/bu/bundle-builder-ko-hien-thi-child-products-trong-checkout-page-va-order.md` — Bundle Builder ko hiển thị child products trong checkout page và order
 - `faq/bu/mc-hoi-ve-phan-overview-va-cach-tinh-revenue-nhu-the-nao.md` — MC hỏi về phần Overview và cách tính revenue như thế nào
 - `faq/bu/joy-subscription-integration.md` — Joy subscription integration
+- `faq/bu/bundle-product-khong-hien-thi-khi-preview-lead-to-404-page.md` — Bundle product không hiển thị khi Preview / Lead to 404 page
 
 ### PPU (16)
 - `faq/ppu/ppu-campaign-trong-truong-hop-mc-dung-nhung-gateway-ko-duoc-ho-tro-thi-cs-can-xu.md` — PPU campaign: Trong trường hợp MC dùng những Gateway ko được hỗ trợ, thì CS cần xử lý như thế nào?  
@@ -88,7 +90,7 @@ Last synced: 2026-04-07T03:59:16.571Z
 - `faq/ppu/them-1-upsell-downsell-level-trong-campaign-ppu.md` — Thêm 1 Upsell/Downsell Level trong campaign PPU
 - `faq/ppu/billing-policy-for-ppu-app.md` — Billing policy for PPU app
 
-### CD (13)
+### CD (16)
 - `faq/cd/display-reward-bar-khi-cart-rong-cart-ko-co-san-pham-nao.md` — Display reward bar khi cart rỗng (Cart ko có sản phẩm nào) 
 - `faq/cd/gioi-han-discount-work-trong-reward-bar.md` — Giới hạn Discount work trong Reward Bar
 - `faq/cd/disable-auto-add-gift.md` — Disable auto add gift
@@ -102,6 +104,9 @@ Last synced: 2026-04-07T03:59:16.571Z
 - `faq/cd/mc-muon-integrate-app-joy-loyalty-redeem-point-feature-vao-cart-drawer.md` — MC muốn integrate app Joy Loyalty (redeem point feature) vào Cart Drawer 
 - `faq/cd/mc-muon-customize-hien-thi-cua-properties-duoi-ten-san-pham-trong-cd.md` — MC muốn customize hiển thị của properties dưới tên sản phẩm trong CD
 - `faq/cd/integrate-voi-cac-app-product-options.md` — Integrate với các app Product Options
+- `faq/cd/reward-bar-milestone-shipping-protection-gift-wrap-excluded.md` — Reward bar/Milestone: Shipping Protection & Gift Wrap excluded
+- `faq/cd/remove-aovcd-true-property-trong-orders.md` — Remove aovcd=true property trong Orders
+- `faq/cd/luu-y-khi-dat-ten-discount-code.md` — Lưu ý khi đặt tên discount code
 
 ## Dev_zone
 
@@ -112,152 +117,6 @@ Last synced: 2026-04-07T03:59:16.571Z
 - `dev-zone/cd.md` — CD
 
 ## User Guide
-
-### CKU (14)
-- `user-guide/cku/getting-started-welcome.md` — Welcome
-- `user-guide/cku/getting-started-installation.md` — Installation
-- `user-guide/cku/getting-started-plans-and-requirements.md` — Plans & Requirements
-- `user-guide/cku/getting-started-quick-start.md` — Quick Start
-- `user-guide/cku/checkout-upsell-how-to-set-up.md` — How to set up
-- `user-guide/cku/payment-customization-how-to-set-up.md` — How to set up
-- `user-guide/cku/delivery-customization-how-to-set-up.md` — How to set up
-- `user-guide/cku/extra-widgets-discount-list.md` — Discount List
-- `user-guide/cku/extra-widgets-image-carousel.md` — Image Carousel
-- `user-guide/cku/extra-widgets-testimonials.md` — Testimonials
-- `user-guide/cku/extra-widgets-cart-editor.md` — Cart Editor
-- `user-guide/cku/extra-widgets-custom-banners.md` — Custom Banners
-- `user-guide/cku/extra-widgets-custom-buttons.md` — Custom Buttons
-- `user-guide/cku/checkout-validations-custom-rules.md` — Custom Rules
-
-### FG (61)
-- `user-guide/fg/getting-started.md` — Getting started
-- `user-guide/fg/welcome.md` — Welcome
-- `user-guide/fg/promotion-campaign.md` — Promotion campaign
-- `user-guide/fg/buy-x-get-y.md` — Buy X Get Y
-- `user-guide/fg/gift-with-cart-value.md` — Gift with Cart Value
-- `user-guide/fg/gift-with-collection-value.md` — Gift with Collection Value
-- `user-guide/fg/gift-with-quantity-purchase.md` — Gift with Quantity Purchase
-- `user-guide/fg/milestone-rewards.md` — Milestone Rewards
-- `user-guide/fg/milestone-rewards-1.md` — Milestone Rewards
-- `user-guide/fg/checkout-upsell.md` — Checkout Upsell
-- `user-guide/fg/checkout-progress-bar.md` — Checkout- Progress bar
-- `user-guide/fg/order-goal.md` — Order Goal
-- `user-guide/fg/how-to-set-up-order-goal-campaign.md` — How to set up Order Goal campaign
-- `user-guide/fg/promote-order-goal-with-announcement-bar.md` — Promote Order Goal with Announcement Bar
-- `user-guide/fg/shipping-goal.md` — Shipping Goal
-- `user-guide/fg/widgets.md` — Widgets
-- `user-guide/fg/set-up-gift-receiving-method.md` — Set up gift receiving method
-- `user-guide/fg/floating-button.md` — Floating button
-- `user-guide/fg/congrats-bar-auto-add-gift.md` — Congrats Bar - Auto add gift
-- `user-guide/fg/pop-up.md` — Pop-up
-- `user-guide/fg/promote-your-campaign.md` — Promote your campaign
-- `user-guide/fg/promotion-bar.md` — Promotion bar
-- `user-guide/fg/promotion-card.md` — Promotion Card
-- `user-guide/fg/deal-of-the-day.md` — Deal of the Day
-- `user-guide/fg/tiered-reward-box.md` — Tiered Reward Box
-- `user-guide/fg/how-does-the-tiered-reward-box-help-boost-your-stores-aov.md` — How Does the Tiered Reward Box Help Boost Your Store's AOV?
-- `user-guide/fg/deal-badge.md` — Deal Badge
-- `user-guide/fg/milestone-bar.md` — Milestone bar
-- `user-guide/fg/advanced-settings.md` — ADVANCED SETTINGS
-- `user-guide/fg/subscription-integration.md` — Subscription integration
-- `user-guide/fg/pos-integration.md` — POS integration
-- `user-guide/fg/gift-limit.md` — Gift limit
-- `user-guide/fg/multiply-gift.md` — Multiply gift
-- `user-guide/fg/lowest-priced-gift.md` — Lowest priced gift
-- `user-guide/fg/translation.md` — Translation
-- `user-guide/fg/specific-link.md` — Specific Link
-- `user-guide/fg/a-b-testing.md` — A/B testing
-- `user-guide/fg/customer-segment.md` — Customer segment
-- `user-guide/fg/customer-location.md` — Customer location
-- `user-guide/fg/apply-code-to-get-gift.md` — Apply code to get gift
-- `user-guide/fg/pop-up-hidden-time.md` — Pop-up hidden time
-- `user-guide/fg/gift-quantity-selector.md` — Gift quantity selector
-- `user-guide/fg/knowledge-hub.md` — Knowledge Hub
-- `user-guide/fg/faqs.md` — FAQs
-- `user-guide/fg/test-without-going-live.md` — Test without going live
-- `user-guide/fg/understand-aov.md` — Understand AOV
-- `user-guide/fg/privacy-policy.md` — Privacy Policy
-- `user-guide/fg/combine-multiple-campaigns.md` — Combine multiple campaigns
-- `user-guide/fg/gift-with-quantity-purchase-volume-discount.md` — Gift With Quantity Purchase + Volume Discount
-- `user-guide/fg/gift-with-collection-value-volume-discount.md` — Gift with Collection Value + Volume Discount
-- `user-guide/fg/gift-with-quantity-purchase-buy-x-get-y.md` — Gift with Quantity Purchase + Buy X Get Y
-- `user-guide/fg/buy-x-get-y-volume-discount.md` — Buy X Get Y + Volume Discount
-- `user-guide/fg/gift-with-cart-value-buy-x-get-y-bxgy.md` — Gift with Cart Value + Buy X Get Y (BXGY)
-- `user-guide/fg/volume-discount.md` — Volume Discount
-- `user-guide/fg/feature-updates-q3-q4-2025.md` — Feature updates: Q3/Q4 2025
-- `user-guide/fg/affiliate-program.md` — Affiliate program
-- `user-guide/fg/subscription-restrictions.md` — Subscription restrictions
-- `user-guide/fg/pricing-info.md` — PRICING INFO
-- `user-guide/fg/quota-usage-for-free-plan.md` — Quota usage for Free plan
-- `user-guide/fg/definition-of-revenue-by-app.md` — Definition of Revenue by App
-- `user-guide/fg/monthly-charge-calculation.md` — Monthly charge calculation
-
-### BU (15)
-- `user-guide/bu/getting-started-welcome.md` — Welcome
-- `user-guide/bu/getting-started-quick-start-guide.md` — Quick Start Guide
-- `user-guide/bu/frequently-bought-together-how-to-set-up.md` — How to set up
-- `user-guide/bu/frequently-bought-together-display-settings.md` — Display settings
-- `user-guide/bu/volume-discount-how-to-set-up.md` — How to set up
-- `user-guide/bu/volume-discount-display-settings.md` — Display settings
-- `user-guide/bu/bundle-builder-how-to-set-up.md` — How to set up
-- `user-guide/bu/bundle-builder-display-settings.md` — Display settings
-- `user-guide/bu/product-fixed-bundle-how-to-set-up.md` — How to set up
-- `user-guide/bu/product-fixed-bundle-display-settings.md` — Display settings
-- `user-guide/bu/product-fixed-bundle-how-to-calculate-options-and-variants-of-the-bundle.md` — How to calculate options and variants of the bundle?
-- `user-guide/bu/product-fixed-bundle-how-to-sell-multipack-including-fixed-bundle.md` — How to sell multipack including fixed bundle?
-- `user-guide/bu/mix-match-bundle-how-to-set-up.md` — How to set up
-- `user-guide/bu/mix-match-bundle-display-settings.md` — Display settings
-- `user-guide/bu/others-how-to-use-app-block.md` — How to use app block
-
-### PPU (18)
-- `user-guide/ppu/getting-started-readme.md` — Welcome
-- `user-guide/ppu/getting-started-quickstart.md` — Quickstart
-- `user-guide/ppu/post-purchase-upsell-how-to-set-up.md` — How to set up
-- `user-guide/ppu/post-purchase-upsell-display-setting.md` — Display setting
-- `user-guide/ppu/thank-you-page-upsell-how-to-set-up.md` — How to set up
-- `user-guide/ppu/thank-you-page-upsell-display-setting.md` — Display setting
-- `user-guide/ppu/order-status-page-upsell-how-to-set-up.md` — How to set up
-- `user-guide/ppu/order-status-page-upsell-display-setting.md` — Display setting
-- `user-guide/ppu/advanced-settings-ab-testing.md` — A/B Testing
-- `user-guide/ppu/advanced-settings-multi-language.md` — Multi-language Support
-- `user-guide/ppu/advanced-settings-claim-confirmation.md` — Claim Confirmation
-- `user-guide/ppu/advanced-settings-test-your-offers-with-verify-tool.md` — Test Your Offers with Verify Tool (hidden — feature temporarily unavailable)
-- `user-guide/ppu/advanced-settings-show-product-metafields-as-product-description.md` — Show Product Metafields as Product Description
-- `user-guide/ppu/analytics-analytics.md` — Analytics
-- `user-guide/ppu/order-tracker-order-tracker.md` — Order Tracker
-- `user-guide/ppu/integrations-integrations.md` — Integrations
-- `user-guide/ppu/pricing-pricing-plan.md` — Pricing Plan
-- `user-guide/ppu/reference-shopify-limitations-and-considerations-for-post-purchase-checkout-exte.md` — Shopify Limitations
-
-### CD (17)
-- `user-guide/cd/readme.md` — Welcome
-- `user-guide/cd/editor.md` — Cart Editor
-- `user-guide/cd/design.md` — Design
-- `user-guide/cd/general-settings.md` — General Settings
-- `user-guide/cd/rewards-progress-bar-setup-guide.md` — Rewards Progress Bar - Setup Guide
-- `user-guide/cd/cart-drawer-overview.md` — Cart Drawer Overview
-- `user-guide/cd/translation.md` — Translation
-- `user-guide/cd/header-header.md` — Header
-- `user-guide/cd/body-announcements.md` — Announcements
-- `user-guide/cd/rewards-bar.md` — Rewards bar
-- `user-guide/cd/product-card.md` — Product card
-- `user-guide/cd/addition-notes.md` — Addition notes
-- `user-guide/cd/footer-discount-codes.md` — Discount codes
-- `user-guide/cd/footer-subtotal.md` — Subtotal
-- `user-guide/cd/footer-customized-text.md` — Customized text
-- `user-guide/cd/footer-checkout-button.md` — Checkout button
-- `user-guide/cd/footer-trust-badges.md` — Trust badges
-
-### PO (9)
-- `user-guide/po/getting-started.md` — Getting Started
-- `user-guide/po/getting-started/readme.md` — Welcome
-- `user-guide/po/manage.md` — Manage
-- `user-guide/po/manage/campaign-list.md` — Campaign List
-- `user-guide/po/manage/orders.md` — Orders & Reports
-- `user-guide/po/pre-order-campaign.md` — Pre-Order Campaign
-- `user-guide/po/pre-order-campaign/campaign-settings.md` — Campaign Settings
-- `user-guide/po/pre-order-campaign/payment-settings.md` — Payment Settings
-- `user-guide/po/pre-order-campaign/display-settings.md` — Display Settings
 
 ## Static
 

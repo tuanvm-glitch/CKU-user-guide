@@ -121,46 +121,21 @@
 
 ---
 
-# Discount stacking tính compound hay additive?
+# Ko tìm thấy feature “Cart Editor” trong checkout page
 
 ⚠️ Problem/ Request:
 
-  - MC hỏi khi có nhiều discount áp dụng cùng lúc (ví dụ: subscription discount + volume discount), app tính theo kiểu nào?
-  - Compound: giảm lần lượt (15% trước, rồi 20% trên số tiền đã giảm)  
-  - Additive: cộng dồn discount % (15% + 20% = 35%)
-
+  - Feature Cart Editor không hiển thị ở Checkout upsell 
+  - Khi ấn “add block” → Không tìm thấy tính năng “Cart Editor” để add vào trang checkout page.
 🎗️ Possible causes:
 
+  - Khả năng do CS add nhầm ra section khác ngoài section “Order summary”
 ➡️ Support flow:
 
-  - App sử dụng **compound stacking logic** (giảm lần lượt, không cộng dồn).
-  - Thứ tự áp dụng: Subscription discount → Volume discount → Other discounts
-  - Công thức:
-```
-Step 1: Áp dụng subscription discount
-New price = Original price × (1 - subscription_discount_rate)
+  - Hiện tại, tính năng “Cart Editor” cho phép customer thay đổi product’s variant ở trang checkout. Nên nó chỉ add được bên trong section “Order summary” (vì trong section này hiển thị list các sản phẩm customer checkout). 
+  - CS hướng dẫn MC add vào đúng section “Order summary”. 
+  - Nếu đã add đúng section “Order summary” mà vẫn không tìm thấy các feature của app → CS báo trực tiếp lên Dev.
 
-Step 2: Áp dụng volume discount trên giá đã giảm
-Final price = Step1_price × (1 - volume_discount_rate)
-```
-
-  - Ví dụ cụ thể:
-    - Sản phẩm: $69/item, mua 3 items = $207
-    - Subscription 15% + Volume 20% cho 3+ items
-```
-Step 1: Subscription 15% → 69 × 0.85 = 58.65/item
-        Total after subscription = 58.65 × 3 = 175.95
-Step 2: Volume 20% → 175.95 × 0.80 = 140.76
-        Final total = $140.76 ✅
-```
-    - Nếu additive: 69 × 3 × (1 - 0.15 - 0.20) = 207 × 0.65 = 134.55 ❌
-
-🗒️ References:
-
-✅ Tips & Tricks:
-
-  - Compound stacking bảo vệ merchant khỏi discount quá cao khi stack nhiều loại
-  - Customer vẫn được lợi, nhưng không extreme như additive stacking
 
 ---
 
@@ -199,23 +174,4 @@ Lưu ý: Contact leader hoặc CS member cùng team để hỏi nếu vẫn chư
 
 ## User Guide (danh sách — đọc file cụ thể nếu cần)
 
-- `user-guide/cku/getting-started-welcome.md` — Welcome
-- `user-guide/cku/getting-started-installation.md` — Installation
-- `user-guide/cku/getting-started-plans-and-requirements.md` — Plans & Requirements
-- `user-guide/cku/getting-started-quick-start.md` — Quick Start
-- `user-guide/cku/checkout-upsell-how-to-set-up.md` — How to set up
-- `user-guide/cku/payment-customization-how-to-set-up.md` — How to set up
-- `user-guide/cku/delivery-customization-how-to-set-up.md` — How to set up
-- `user-guide/cku/extra-widgets-discount-list.md` — Discount List
-- `user-guide/cku/extra-widgets-image-carousel.md` — Image Carousel
-- `user-guide/cku/extra-widgets-testimonials.md` — Testimonials
-- `user-guide/cku/extra-widgets-cart-editor.md` — Cart Editor
-- `user-guide/cku/extra-widgets-custom-banners.md` — Custom Banners
-- `user-guide/cku/extra-widgets-custom-buttons.md` — Custom Buttons
-- `user-guide/cku/extra-widgets-trust-badges.md` — Trust Badges
-- `user-guide/cku/checkout-validations-custom-rules.md` — Custom Rules
-- `user-guide/cku/checkout-validations-geo-restriction.md` — Geo Restriction
-- `user-guide/cku/checkout-validations-address-validation.md` — Address Validation
-- `user-guide/cku/checkout-validations-regex-validation.md` — Regex Validation
-- `user-guide/cku/checkout-validations-vat-validation.md` — VAT Validation
-- `user-guide/cku/checkout-customization-shipping-discount.md` — Shipping Discount
+(Chưa có User Guide)

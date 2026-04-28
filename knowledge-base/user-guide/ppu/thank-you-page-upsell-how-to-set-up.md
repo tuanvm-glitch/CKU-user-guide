@@ -264,3 +264,11 @@ The offer header text supports dynamic variables that are replaced with real ord
 
 To insert a variable, click the **{ }** button in the header or coupon title text field and select the variable from the list.
 
+***
+
+#### What happens when multiple offers qualify?
+
+If more than one Thank you page upsell offer matches the same order, the app shows **only one** — the offer with the highest priority (priority **1** wins). Newly created offers are automatically placed at priority 1; you can reorder at any time from the **Offer list** page via **Manage priority**.
+
+See [Manage offer priority](advanced-settings-manage-offer-priority.md) for the full workflow.
+

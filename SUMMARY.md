@@ -40,3 +40,7 @@
 * [Address Validation](checkout-validations/address-validation.md)
 * [Regex Validation](checkout-validations/regex-validation.md)
 * [VAT Validation](checkout-validations/vat-validation.md)
+
+## 🌐 Translation
+
+* [How to set up](translation/how-to-set-up.md)

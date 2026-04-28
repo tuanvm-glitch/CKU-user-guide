@@ -836,6 +836,26 @@ Phân biệt campaign GWCA (Gift with cart value) và GWCV (Gift with collection
 
 ---
 
+# Gift on Slide Cart của nhiều offers
+
+⚠️ Problem/ Request:
+
+  - Gift on Slide cart widget trong preview thấy có thể hiện nhiều offer cùng lúc và MC muốn hiển thị tương tự. 
+  - Nhưng khi test 2 camp Gift With Cart Value thì lại không thấy hiện 2 offer mà chỉ hiện cái thuộc camp có giá trị cao hơn
+
+➡️ Support flow:
+
+  - Hiện tại Gift on Slide cart chỉ có thể hiển thị đồng thời nhiều offer khi chúng được tạo từ các campaign khác loại. Ví dụ: Buy X Get Y + Gift With Cart Value
+  - Nếu là các campain cùng loại, thì sẽ chỉ hiện offer của campaign có giá trị cao nhất hay mới tạo gần nhất
+🗒️ References:
+
+https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_e58af5c6-6a6e-4222-8768-0c5fa7f65876/
+
+✅ Tips & Tricks:
+
+
+---
+
 ## Dev_zone
 
 # Dev_zone — FG
@@ -987,64 +1007,4 @@ Dev & Test tools - Có một vài tính năng CSS riêng theo yêu cầu của t
 
 ## User Guide (danh sách — đọc file cụ thể nếu cần)
 
-- `user-guide/fg/getting-started.md` — Getting started
-- `user-guide/fg/welcome.md` — Welcome
-- `user-guide/fg/promotion-campaign.md` — Promotion campaign
-- `user-guide/fg/buy-x-get-y.md` — Buy X Get Y
-- `user-guide/fg/gift-with-cart-value.md` — Gift with Cart Value
-- `user-guide/fg/gift-with-collection-value.md` — Gift with Collection Value
-- `user-guide/fg/gift-with-quantity-purchase.md` — Gift with Quantity Purchase
-- `user-guide/fg/milestone-rewards.md` — Milestone Rewards
-- `user-guide/fg/milestone-rewards-1.md` — Milestone Rewards
-- `user-guide/fg/checkout-upsell.md` — Checkout Upsell
-- `user-guide/fg/checkout-progress-bar.md` — Checkout- Progress bar
-- `user-guide/fg/order-goal.md` — Order Goal
-- `user-guide/fg/how-to-set-up-order-goal-campaign.md` — How to set up Order Goal campaign
-- `user-guide/fg/promote-order-goal-with-announcement-bar.md` — Promote Order Goal with Announcement Bar
-- `user-guide/fg/shipping-goal.md` — Shipping Goal
-- `user-guide/fg/widgets.md` — Widgets
-- `user-guide/fg/set-up-gift-receiving-method.md` — Set up gift receiving method
-- `user-guide/fg/floating-button.md` — Floating button
-- `user-guide/fg/congrats-bar-auto-add-gift.md` — Congrats Bar - Auto add gift
-- `user-guide/fg/pop-up.md` — Pop-up
-- `user-guide/fg/promote-your-campaign.md` — Promote your campaign
-- `user-guide/fg/promotion-bar.md` — Promotion bar
-- `user-guide/fg/promotion-card.md` — Promotion Card
-- `user-guide/fg/deal-of-the-day.md` — Deal of the Day
-- `user-guide/fg/tiered-reward-box.md` — Tiered Reward Box
-- `user-guide/fg/how-does-the-tiered-reward-box-help-boost-your-stores-aov.md` — How Does the Tiered Reward Box Help Boost Your Store's AOV?
-- `user-guide/fg/deal-badge.md` — Deal Badge
-- `user-guide/fg/milestone-bar.md` — Milestone bar
-- `user-guide/fg/advanced-settings.md` — ADVANCED SETTINGS
-- `user-guide/fg/subscription-integration.md` — Subscription integration
-- `user-guide/fg/pos-integration.md` — POS integration
-- `user-guide/fg/gift-limit.md` — Gift limit
-- `user-guide/fg/multiply-gift.md` — Multiply gift
-- `user-guide/fg/lowest-priced-gift.md` — Lowest priced gift
-- `user-guide/fg/translation.md` — Translation
-- `user-guide/fg/specific-link.md` — Specific Link
-- `user-guide/fg/a-b-testing.md` — A/B testing
-- `user-guide/fg/customer-segment.md` — Customer segment
-- `user-guide/fg/customer-location.md` — Customer location
-- `user-guide/fg/apply-code-to-get-gift.md` — Apply code to get gift
-- `user-guide/fg/pop-up-hidden-time.md` — Pop-up hidden time
-- `user-guide/fg/gift-quantity-selector.md` — Gift quantity selector
-- `user-guide/fg/knowledge-hub.md` — Knowledge Hub
-- `user-guide/fg/faqs.md` — FAQs
-- `user-guide/fg/test-without-going-live.md` — Test without going live
-- `user-guide/fg/understand-aov.md` — Understand AOV
-- `user-guide/fg/privacy-policy.md` — Privacy Policy
-- `user-guide/fg/combine-multiple-campaigns.md` — Combine multiple campaigns
-- `user-guide/fg/gift-with-quantity-purchase-volume-discount.md` — Gift With Quantity Purchase + Volume Discount
-- `user-guide/fg/gift-with-collection-value-volume-discount.md` — Gift with Collection Value + Volume Discount
-- `user-guide/fg/gift-with-quantity-purchase-buy-x-get-y.md` — Gift with Quantity Purchase + Buy X Get Y
-- `user-guide/fg/buy-x-get-y-volume-discount.md` — Buy X Get Y + Volume Discount
-- `user-guide/fg/gift-with-cart-value-buy-x-get-y-bxgy.md` — Gift with Cart Value + Buy X Get Y (BXGY)
-- `user-guide/fg/volume-discount.md` — Volume Discount
-- `user-guide/fg/feature-updates-q3-q4-2025.md` — Feature updates: Q3/Q4 2025
-- `user-guide/fg/affiliate-program.md` — Affiliate program
-- `user-guide/fg/subscription-restrictions.md` — Subscription restrictions
-- `user-guide/fg/pricing-info.md` — PRICING INFO
-- `user-guide/fg/quota-usage-for-free-plan.md` — Quota usage for Free plan
-- `user-guide/fg/definition-of-revenue-by-app.md` — Definition of Revenue by App
-- `user-guide/fg/monthly-charge-calculation.md` — Monthly charge calculation
+(Chưa có User Guide)

@@ -231,3 +231,11 @@ With these foundations in place, your offer is ready, as it knows **when** to ap
 
 👉 Continue to **Set up the widget display** to customize the layout, header text, timer, and badges that bring your upsell to life on the Order Status Page.
 
+***
+
+#### What happens when multiple offers qualify?
+
+If more than one Order status page upsell offer matches the same order, the app shows **only one** — the offer with the highest priority (priority **1** wins). Newly created offers are automatically placed at priority 1; you can reorder at any time from the **Offer list** page via **Manage priority**.
+
+See [Manage offer priority](advanced-settings-manage-offer-priority.md) for the full workflow.
+

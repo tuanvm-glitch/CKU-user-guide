@@ -114,3 +114,26 @@ B2: Muốn hiển thị Cart Tip ở đâu thì tìm class trong cart item rồi
 - Do các properties của bundle thường có prefix là _aov , nên có thể check nếu là _aov thì skip, k render nữa ( cái này mỗi theme sẽ có 1 cách xử lý khác nhau, nhưng cách xử lý chính là thấy key _aov sẽ không render property đó)
 https://prnt.sc/bHQVPVY-8-FB |
 |  |  |  |
+
+## Aliases
+
+remove trademark, remove branding, hide trademark, hide branding, without trademark, without branding, no trademark, no branding, remove watermark, hide watermark, no watermark, remove app logo, hide app logo, app brand, aov branding, remove aov brand
+auto-match with theme, match theme, match my theme, match store theme, auto theme, theme color match, sync theme, use theme color
+use theme font, match theme font, same font as theme, theme font
+widget position, custom widget position, move widget, place widget, widget location, custom position
+allow update text, edit widget text, change widget text, edit text widget, customize widget text
+allow untick fbt, untick fbt, default untick, fbt unchecked by default, uncheck fbt default
+allows all products in fbt, all products in collection fbt, show all collection products
+remove ai recommendation limit, more ai offers, unlimited ai recommendation
+stop click cart icon, disable cart redirect after add, no redirect to cart
+allow reducing gift, reduce gift only, disable increase gift
+uncheck gift, uncheck gift default, gift unchecked by default
+custom css, add custom css, inject css, css customization
+disable auto-select tier, stop auto select tier volume
+max quantity per tier, tier limit, limit tier quantity
+shopify price format, currency code with price, currency position
+edit discount code, modify discount code
+enable meta pixel addtocart, meta pixel tracking addtocart
+buck currency integration
+redirect to product page in bundle builder
+show volume atc button, add to cart button volume

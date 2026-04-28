@@ -282,6 +282,74 @@ https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/sessio
 
 ---
 
+# Reward bar/Milestone: Shipping Protection & Gift Wrap excluded
+
+⚠️ Problem/ Request:
+
+  Reward bar display Shopify discount, khi MC set up discount Shopify dựa trên quantity như buy 2 get 10% thì 2 sản phẩm bổ trợ vẫn ăn discount, MC không muốn thế vì 2 sản phẩm bổ trợ giá trị không cao, cần exclude 2 sản phẩm.
+
+🎗️ Possible causes:
+
+  2 sản phẩm shipping protection và gift wrap là sản phẩm thật nên với reward bar, chạy Shopify Discount, không thể exclude được 2 sản phẩm đó. Shopify không hỗ trợ tính năng này và app thứ 3 như Cart Drawer không thể can thiệp Shopify Discount flow để exclude products
+
+➡️ Support flow:
+
+  → Giải pháp duy nhất hiện tại là suggest MC dùng milestone của Free Gift app thay thế
+→ milestone hiện tại đã hoạt động theo logic tự động exclude shipping protection và gift wrap khỏi trigger quantity, không cần set up gì thêm
+
+🗒️ References:
+
+  https://avadaio.slack.com/archives/C083YAETLEP/p1776181296297739
+
+✅ Tips & Tricks:
+
+
+---
+
+# Remove aovcd=true property trong Orders
+
+⚠️ Problem/ Request: 
+
+  - MC muốn xóa _aov_cd true trong Orders section ở Orders information. 
+    - Ảnh: 
+➡️ Support flow:
+
+  Sử dụng Shopify flow để xoá text này trong Orders Information. 
+
+  1. CS gửi MC file để import: 
+  1. Vào Shopify Flow app → Import và chọn file 
+  1. Set active cho flow để flow work và xóa text theo yêu cầu.
+
+
+---
+
+# Lưu ý khi đặt tên discount code
+
+⚠️ Problem/ Request:
+
+  - MC report discount code ko work mặc dù đã set up app + campaign như hướng dẫn. 
+  - Discount code của MC có chứa dấu phẩy → ví dụ: 
+    - Buy 6 Hydra-Collagen Lip Treatment, Save 20% 
+🎗️ Possible causes:
+
+  - Hiện tại, nếu discount code có chứa dấu phẩy → App sẽ không work. 
+➡️ Support flow:
+
+  - CS/bot verify lại các thông tin cơ bản trước: 
+    - Đã bật app embeds + go live campaign chưa? 
+    - Đã add block cho widget vào theme chưa? 
+  - Nếu đã làm hết các bước trên mà app vẫn không work → CS chủ động check lại discount code xem MC có sử dụng dấu phẩy không? Nếu MC sử dụng: 
+    - Recommend MC xoá đi, sửa lại text ở discount code field. 
+    - Hoặc recommend MC thay dấu phẩy bằng dấu chấm: Buy 6 Hydra-Collagen Lip Treatment. Save 20% 
+🗒️ References:
+
+  https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_acf2ff26-2a30-489d-b466-dfbfea8eaaa7
+
+✅ Tips & Tricks:
+
+
+---
+
 ## Dev_zone
 
 # Dev_zone — CD
@@ -355,20 +423,4 @@ Use case: https://capture.avada.io/i/Sv55vr9c43aI
 
 ## User Guide (danh sách — đọc file cụ thể nếu cần)
 
-- `user-guide/cd/readme.md` — Welcome
-- `user-guide/cd/editor.md` — Cart Editor
-- `user-guide/cd/design.md` — Design
-- `user-guide/cd/general-settings.md` — General Settings
-- `user-guide/cd/rewards-progress-bar-setup-guide.md` — Rewards Progress Bar - Setup Guide
-- `user-guide/cd/cart-drawer-overview.md` — Cart Drawer Overview
-- `user-guide/cd/translation.md` — Translation
-- `user-guide/cd/header-header.md` — Header
-- `user-guide/cd/body-announcements.md` — Announcements
-- `user-guide/cd/rewards-bar.md` — Rewards bar
-- `user-guide/cd/product-card.md` — Product card
-- `user-guide/cd/addition-notes.md` — Addition notes
-- `user-guide/cd/footer-discount-codes.md` — Discount codes
-- `user-guide/cd/footer-subtotal.md` — Subtotal
-- `user-guide/cd/footer-customized-text.md` — Customized text
-- `user-guide/cd/footer-checkout-button.md` — Checkout button
-- `user-guide/cd/footer-trust-badges.md` — Trust badges
+(Chưa có User Guide)

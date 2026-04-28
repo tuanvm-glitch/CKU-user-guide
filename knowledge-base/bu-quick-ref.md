@@ -2,26 +2,6 @@
 
 ## FAQ
 
-# Vô hiệu hoá volume widget
-
-⚠️ Problem/ Request:
-
-- Nói tóm lại: 
-  - Widget volume chỉ hiện như banner thông báo về promo và unclickable. 
-  - Việc offer discount/ gift theo quantity sẽ dựa vào việc tăng hoặc giảm trực tiếp quantity sau khi atc ở product page hoặc điều chỉnh quantity ở cart page/ cart drawer. 
-➡️ Support flow:
-
-- Case này xin quyền theme > báo Dev. 
-- Ko hẹn khách là làm được luôn do BA confirm là tùy theme mới làm được hoặc không. 
-🗒️ References:
-
-https://app.crisp.chat/website/72a663b0-4cda-4e3b-8878-426bdd79364c/inbox/session_203787ba-c5d5-4fb3-a948-e0e0041b974b/
-
-https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_45bb76c4-5700-4cb0-8a87-c82ad1c681f1/
-
-
----
-
 # Hiển thị FBT widget trong Cart Drawer 
 
 ⚠️ Problem/ Request:
@@ -463,6 +443,35 @@ https://avadaio.slack.com/archives/C083YAETLEP/p1774531214019939
 
 ---
 
+# Bundle product không hiển thị khi Preview / Lead to 404 page
+
+⚠️ Problem/ Request:
+
+  - Khi merchant bấm Preview trong app, bundle product không hiển thị dù đã hoàn tất đầy đủ 3 bước cấu hình.
+🎗️ Possible causes:
+
+  - Nguyên nhân có thể do store đang sử dụng Shopify Markets với nhiều market, và bundle product chưa được thêm vào catalog của market tương ứng → product không hiển thị ở preview/frontend.
+➡️ Support flow:
+
+  - CS cần xin các quyền sau:
+    - Market
+    - Product
+    - Theme
+  - Kiểm tra và thêm product vào Market catalog → Thực hiện các bước sau trong Shopify Admin:
+    1. Vào Settings → Markets
+    1. Chọn Catalog
+    1. Trong mục Products and pricing, chọn Manage → Manage products and pricing
+    1. Chuyển sang tab Excluded (các sản phẩm chưa được thêm vào catalog)
+    1. Chọn các bundle product cần hiển thị
+    1. Nhấn Include in catalog → Include products
+    1. Nhấn Save
+  - Kết quả mong đợi → Sau khi thêm product vào đúng market catalog:
+    - Bundle product sẽ hiển thị lại khi preview
+    - Hoạt động bình thường trên storefront
+
+
+---
+
 ## Dev_zone
 
 # Dev_zone — BU
@@ -582,21 +591,30 @@ B2: Muốn hiển thị Cart Tip ở đâu thì tìm class trong cart item rồi
 https://prnt.sc/bHQVPVY-8-FB |
 |  |  |  |
 
+## Aliases
+
+remove trademark, remove branding, hide trademark, hide branding, without trademark, without branding, no trademark, no branding, remove watermark, hide watermark, no watermark, remove app logo, hide app logo, app brand, aov branding, remove aov brand
+auto-match with theme, match theme, match my theme, match store theme, auto theme, theme color match, sync theme, use theme color
+use theme font, match theme font, same font as theme, theme font
+widget position, custom widget position, move widget, place widget, widget location, custom position
+allow update text, edit widget text, change widget text, edit text widget, customize widget text
+allow untick fbt, untick fbt, default untick, fbt unchecked by default, uncheck fbt default
+allows all products in fbt, all products in collection fbt, show all collection products
+remove ai recommendation limit, more ai offers, unlimited ai recommendation
+stop click cart icon, disable cart redirect after add, no redirect to cart
+allow reducing gift, reduce gift only, disable increase gift
+uncheck gift, uncheck gift default, gift unchecked by default
+custom css, add custom css, inject css, css customization
+disable auto-select tier, stop auto select tier volume
+max quantity per tier, tier limit, limit tier quantity
+shopify price format, currency code with price, currency position
+edit discount code, modify discount code
+enable meta pixel addtocart, meta pixel tracking addtocart
+buck currency integration
+redirect to product page in bundle builder
+show volume atc button, add to cart button volume
+
 
 ## User Guide (danh sách — đọc file cụ thể nếu cần)
 
-- `user-guide/bu/getting-started-welcome.md` — Welcome
-- `user-guide/bu/getting-started-quick-start-guide.md` — Quick Start Guide
-- `user-guide/bu/frequently-bought-together-how-to-set-up.md` — How to set up
-- `user-guide/bu/frequently-bought-together-display-settings.md` — Display settings
-- `user-guide/bu/volume-discount-how-to-set-up.md` — How to set up
-- `user-guide/bu/volume-discount-display-settings.md` — Display settings
-- `user-guide/bu/bundle-builder-how-to-set-up.md` — How to set up
-- `user-guide/bu/bundle-builder-display-settings.md` — Display settings
-- `user-guide/bu/product-fixed-bundle-how-to-set-up.md` — How to set up
-- `user-guide/bu/product-fixed-bundle-display-settings.md` — Display settings
-- `user-guide/bu/product-fixed-bundle-how-to-calculate-options-and-variants-of-the-bundle.md` — How to calculate options and variants of the bundle?
-- `user-guide/bu/product-fixed-bundle-how-to-sell-multipack-including-fixed-bundle.md` — How to sell multipack including fixed bundle?
-- `user-guide/bu/mix-match-bundle-how-to-set-up.md` — How to set up
-- `user-guide/bu/mix-match-bundle-display-settings.md` — Display settings
-- `user-guide/bu/others-how-to-use-app-block.md` — How to use app block
+(Chưa có User Guide)

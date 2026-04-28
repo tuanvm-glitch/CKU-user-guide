@@ -147,7 +147,7 @@ Step 2: Sau khi rà qua các bước căn bản ở trên mà app vẫn không w
   2/ Cách test lại flow: 
 
     - Tạo 1 discount code để order chỉ còn giá trị khoảng $1 để test. CS có thể forward case cho BA/Dev từ bước này.
-    - Đảm bảo total bill ủa order ở checkout page ≥ $1 thì PPU mới work. 
+    - Đảm bảo total bill của order ở checkout page ≥ $1 thì PPU mới work. 
     - Test order: Lưu ý không dùng COD (Cash on Delivery).
 
 
@@ -592,21 +592,4 @@ https://capture.avada.io/i/I1wLKLborluw |
 
 ## User Guide (danh sách — đọc file cụ thể nếu cần)
 
-- `user-guide/ppu/getting-started-readme.md` — Welcome
-- `user-guide/ppu/getting-started-quickstart.md` — Quickstart
-- `user-guide/ppu/post-purchase-upsell-how-to-set-up.md` — How to set up
-- `user-guide/ppu/post-purchase-upsell-display-setting.md` — Display setting
-- `user-guide/ppu/thank-you-page-upsell-how-to-set-up.md` — How to set up
-- `user-guide/ppu/thank-you-page-upsell-display-setting.md` — Display setting
-- `user-guide/ppu/order-status-page-upsell-how-to-set-up.md` — How to set up
-- `user-guide/ppu/order-status-page-upsell-display-setting.md` — Display setting
-- `user-guide/ppu/advanced-settings-ab-testing.md` — A/B Testing
-- `user-guide/ppu/advanced-settings-multi-language.md` — Multi-language Support
-- `user-guide/ppu/advanced-settings-claim-confirmation.md` — Claim Confirmation
-- `user-guide/ppu/advanced-settings-test-your-offers-with-verify-tool.md` — Test Your Offers with Verify Tool (hidden — feature temporarily unavailable)
-- `user-guide/ppu/advanced-settings-show-product-metafields-as-product-description.md` — Show Product Metafields as Product Description
-- `user-guide/ppu/analytics-analytics.md` — Analytics
-- `user-guide/ppu/order-tracker-order-tracker.md` — Order Tracker
-- `user-guide/ppu/integrations-integrations.md` — Integrations
-- `user-guide/ppu/pricing-pricing-plan.md` — Pricing Plan
-- `user-guide/ppu/reference-shopify-limitations-and-considerations-for-post-purchase-checkout-exte.md` — Shopify Limitations
+(Chưa có User Guide)

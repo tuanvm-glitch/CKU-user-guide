@@ -111,15 +111,12 @@ Displays the main offer headline at the top of the widget.
 * **Text content**: Enter your headline. Recommended max 60 characters.
 * **Variables**: Click **Add variable** to insert dynamic values.
 
-| Variable              | What it inserts                    |
-| --------------------- | ---------------------------------- |
-| `{{first_name}}`      | Customer's first name              |
-| `{{last_name}}`       | Customer's last name               |
-| `{{discount_value}}`  | Discount percentage (e.g., 20%)    |
-| `{{discount_amount}}` | Discount in currency (e.g., $5.00) |
-| `{{included_taxes}}`  | Tax amount included in the price   |
+| Variable         | What it inserts       |
+| ---------------- | --------------------- |
+| `{{first_name}}` | Customer's first name |
+| `{{last_name}}`  | Customer's last name  |
 
-* **Text size**: Extra Small, Small, Base, Medium, Large, X-Large, Extra Large
+* **Text size**: Extra small, Small, Base, Medium, Large, Extra large
 * **Text color**: Base, Critical, Warning, Success, Accent, Subdued, Emphasized
 * **Text style**: Normal, Bold, Italic
 * **Text alignment**: Left, Center, Right

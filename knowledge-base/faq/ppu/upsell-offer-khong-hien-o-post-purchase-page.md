@@ -45,5 +45,5 @@ Step 2: Sau khi rà qua các bước căn bản ở trên mà app vẫn không w
   2/ Cách test lại flow: 
 
     - Tạo 1 discount code để order chỉ còn giá trị khoảng $1 để test. CS có thể forward case cho BA/Dev từ bước này.
-    - Đảm bảo total bill ủa order ở checkout page ≥ $1 thì PPU mới work. 
+    - Đảm bảo total bill của order ở checkout page ≥ $1 thì PPU mới work. 
     - Test order: Lưu ý không dùng COD (Cash on Delivery).
