@@ -3,7 +3,7 @@
 Encourage buyers to add more units by showing quantity-based discount tiers right inside the checkout's Order Summary. Each tier maps to a Shopify Automatic Discount.
 
 {% hint style="warning" %}
-**Shopify Plus required.** Volume Savings uses Checkout UI Extensions (`purchase.checkout.cart-line-item.render-after`), which require a Shopify Plus plan.
+**Shopify Plus required.** Volume Savings displays directly inside the checkout page, which is only available on Shopify Plus.
 {% endhint %}
 
 ***
@@ -63,7 +63,7 @@ Each tier has: **Minimum quantity**, **Discount type** (None / Percentage / Fixe
 
 ## Step 6: Save
 
-Save creates one **Shopify Automatic Discount** per tier (`AOV_VS_<offerId>_tier_<index>`), visible in **Shopify Admin → Discounts**.
+Save creates one **Shopify Automatic Discount** per tier — visible in **Shopify Admin → Discounts**.
 
 {% hint style="warning" %}
 **Don't manually edit the auto-created Shopify discounts.** They are managed by AOV.AI and overwritten on next save.
@@ -95,4 +95,4 @@ Save creates one **Shopify Automatic Discount** per tier (`AOV_VS_<offerId>_tier
 **Q: Tier with No discount?** Shows in the list but creates no Shopify discount (useful as base "Buy 1" tier).
 **Q: Product / cart page support?** No — checkout only.
 **Q: Why discounts in Shopify Discounts list?** One Automatic Basic Discount per tier so the platform applies it. Don't edit manually.
-**Q: Shopify Plus required?** Yes — uses Checkout UI Extension target only available on Plus.
+**Q: Shopify Plus required?** Yes — Volume Savings displays directly on the checkout page, which is only available on Shopify Plus.

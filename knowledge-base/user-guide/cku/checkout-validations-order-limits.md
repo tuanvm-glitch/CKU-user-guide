@@ -3,7 +3,7 @@
 Set minimum and maximum limits on order value, cart quantity, or per-product rules. When a buyer's cart violates the limits, checkout is blocked with a clear error message.
 
 {% hint style="success" %}
-**Available on all Shopify plans.** Order Limits uses Shopify Functions — no Shopify Plus required.
+**Available on all Shopify plans.** No Shopify Plus required.
 {% endhint %}
 
 ***
@@ -76,13 +76,13 @@ Set Status to **Test mode** → checkout with email `aov@testing.com` → verify
 
 ## How it works at checkout
 
-The AOV.AI cart-validation function runs at the **Checkout completion** step. Both trigger conditions AND the limit must be violated for the error to fire.
+The rule fires at the **Pay now** step on checkout. Both trigger conditions AND the limit must be violated for the error to display.
 
 ## FAQ
 
 **Q: Multiple order-limit rules?** Yes — each is independent.
-**Q: Works with Apple/Google/Shop Pay?** Yes — runs at Checkout completion.
+**Q: Works with Apple/Google/Shop Pay?** Yes — fires for accelerated checkouts as well.
 **Q: What if the app errors?** Checkout is blocked when **Block on failure** is ON.
 **Q: Currency formatting?** Order value / Per-product value format `{{min}}` / `{{max}}` as currency. Quantity types format as plain numbers.
 **Q: Buyers see the limit before checkout?** No — enforcement is at checkout completion only.
-**Q: Shopify Plus required?** No — uses Shopify Cart Validation Functions, available on all plans.
+**Q: Shopify Plus required?** No — Order Limits is available on all Shopify plans.

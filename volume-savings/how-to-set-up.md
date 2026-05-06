@@ -3,7 +3,7 @@
 Encourage buyers to add more units by showing quantity-based discount tiers right inside the checkout's Order Summary. Each tier maps to a Shopify Automatic Discount — buyers pick a tier, see the savings, and the discount applies automatically when the cart matches.
 
 {% hint style="warning" %}
-**Shopify Plus required.** Volume Savings uses Checkout UI Extensions (`purchase.checkout.cart-line-item.render-after`), which require a Shopify Plus plan.
+**Shopify Plus required.** Volume Savings displays directly inside the checkout page, which is only available on Shopify Plus.
 {% endhint %}
 
 ---
@@ -140,7 +140,7 @@ Set **Start date** and optional **End date**. Tier discounts auto-activate at st
 
 {% embed url="https://d2798l25hiaz3h.cloudfront.net/TSrBTzDbsxlo.webp" %}
 
-Behind the scenes, the app creates one **Shopify Automatic Discount** per tier (visible in **Shopify Admin → Discounts**, named `AOV_VS_<offerId>_tier_<index>`).
+Behind the scenes, the app creates one **Shopify Automatic Discount** per tier — you can see them in **Shopify Admin → Discounts**.
 
 {% hint style="warning" %}
 **Don't manually edit the auto-created Shopify discounts.** They are managed by AOV.AI — any changes will be overwritten on next save. Edit the offer in AOV.AI instead.
@@ -151,10 +151,10 @@ Behind the scenes, the app creates one **Shopify Automatic Discount** per tier (
 ## How it works at checkout
 
 1. Buyer reaches the checkout page
-2. The Volume Savings extension renders under each matching cart line item in the Order Summary sidebar
+2. The Volume Savings widget appears under each matching cart line item in the Order Summary sidebar
 3. The widget pre-selects the tier matching the current cart quantity (highest tier whose quantity ≤ current qty)
-4. Buyer can click another tier radio to see the price for that quantity (display only — does not change cart)
-5. When the cart quantity actually reaches a tier threshold, the matching Shopify Automatic Discount applies → discount line item appears in the order total
+4. Buyer can click another tier to preview that price (display only — does not change cart)
+5. When the cart quantity actually reaches a tier threshold, the matching discount applies → discount line item appears in the order total
 
 ---
 
@@ -191,7 +191,7 @@ A: The tier shows in the list (useful as a "base" tier like "Buy 1" with no disc
 A: No. Volume Savings is checkout-only. For pre-checkout placement, use a separate quantity-discount app on the product page.
 
 **Q: Why does my discount show in Shopify Discounts list?**
-A: Volume Savings creates one **Shopify Automatic Basic Discount** per tier so the platform can apply the discount at checkout. They are managed by AOV.AI — don't edit them manually.
+A: Volume Savings creates one **Shopify Automatic Discount** per tier so the platform can apply the discount at checkout. They are managed by AOV.AI — don't edit them manually.
 
 **Q: Does this require Shopify Plus?**
-A: Yes. The widget renders inside a **Checkout UI Extension** target (`purchase.checkout.cart-line-item.render-after`), which is only available on Shopify Plus.
+A: Yes. Volume Savings displays directly on the checkout page, which is only available on Shopify Plus.

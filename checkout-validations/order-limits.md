@@ -3,7 +3,7 @@
 Set minimum and maximum limits on order value, cart quantity, or per-product rules. When a buyer's cart violates the limits, checkout is blocked with a clear error message.
 
 {% hint style="success" %}
-**Available on all Shopify plans.** Order Limits uses Shopify Functions — no Shopify Plus required.
+**Available on all Shopify plans.** No Shopify Plus required.
 {% endhint %}
 
 ---
@@ -157,10 +157,9 @@ The rule is now live for all matching checkouts.
 ## How it works at checkout
 
 1. Buyer fills checkout and clicks **Pay now**
-2. Shopify runs the AOV.AI cart-validation function at the **Checkout completion** step
-3. Function evaluates: trigger conditions match? AND limit is violated?
-4. If both true → checkout is blocked, your error message displays at the configured position
-5. Buyer adjusts cart → re-attempts → succeeds when the cart satisfies the rule
+2. The app checks: do the trigger conditions match? AND is the limit violated?
+3. If both yes → checkout is blocked, your error message displays at the configured position
+4. Buyer adjusts cart → re-attempts → succeeds when the cart satisfies the rule
 
 {% hint style="info" %}
 **Per-product limits filter cart lines.** When **Apply to = Selected products**, only the chosen products are evaluated. Other lines pass through untouched.
@@ -174,16 +173,16 @@ The rule is now live for all matching checkouts.
 A: Yes. Each rule is independent — for example, one rule for min order $50, another for max 10 units per product. All rules run at checkout and any violation blocks the order.
 
 **Q: Does this work with Apple Pay / Google Pay / Shop Pay?**
-A: Yes — the validation runs at the **Checkout completion** step, which fires for accelerated checkouts as well.
+A: Yes — the validation also fires for accelerated checkouts.
 
 **Q: What happens if the app errors out?**
-A: Checkout is blocked when **Block on failure** is ON (recommended). When OFF, the order is allowed through if our function fails.
+A: Checkout is blocked when **Block on failure** is ON (recommended). When OFF, the order is allowed through if the app fails.
 
 **Q: Why does the price in `{{min}}` show without my currency symbol?**
 A: For **Order value** and **Per-product value**, `{{min}}` and `{{max}}` are formatted as currency automatically (e.g. `$50.00`). For **Cart quantity** and **Per-product quantity**, they format as plain numbers (e.g. `2`).
 
 **Q: Can buyers see the limit before checkout?**
-A: No — Order Limits enforces at checkout completion only. To inform buyers earlier, communicate the limit on the product page or cart page.
+A: No — the rule only fires at checkout. To inform buyers earlier, communicate the limit on the product page or cart page.
 
 **Q: Does this require Shopify Plus?**
-A: No. Order Limits uses **Shopify Cart Validation Functions**, which are available on all Shopify plans.
+A: No. Order Limits is available on all Shopify plans.
