@@ -11,6 +11,10 @@
 
 * [How to set up](checkout-upsell/how-to-set-up.md)
 
+## 📦 Volume Savings
+
+* [How to set up](volume-savings/how-to-set-up.md)
+
 ## 💳 Payment Customization
 
 * [How to set up](payment-customization/how-to-set-up.md)
@@ -36,6 +40,7 @@
 ## ✅ Checkout Validations
 
 * [Custom Rules](checkout-validations/custom-rules.md)
+* [Order Limits](checkout-validations/order-limits.md)
 * [Geo Restriction](checkout-validations/geo-restriction.md)
 * [Address Validation](checkout-validations/address-validation.md)
 * [Regex Validation](checkout-validations/regex-validation.md)
