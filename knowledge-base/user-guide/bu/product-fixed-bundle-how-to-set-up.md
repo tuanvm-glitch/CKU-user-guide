@@ -138,4 +138,3 @@ Check the **preview panel** on the right to confirm the bundle details.
 Click **Save** to publish the Product Fixed Bundle to your store.
 
 That’s it! You’ve created a **Product Fixed Bundle** 🎉. Now, customers can purchase your curated set of products at a discounted price, increasing your sales and delivering excellent value.
-

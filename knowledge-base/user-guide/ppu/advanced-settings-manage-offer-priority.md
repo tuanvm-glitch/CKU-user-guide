@@ -1,3 +1,5 @@
+# Manage offer priority
+
 ---
 description: >-
   Control which offer is shown when multiple offers match the same order by
@@ -56,22 +58,22 @@ Select **Save**. Your changes apply immediately to new orders.
 
 You do not need to touch priority for most day-to-day work — the app keeps the list consistent on its own.
 
-| Event                               | What happens                                                                                                                                          |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Create a new offer**              | The new offer is inserted at **priority 1** within its type. Existing offers of that type shift down by one (old priority 1 becomes priority 2, etc.). |
-| **Delete an offer**                 | Remaining offers in the same type re-rank to close the gap — no "holes" in the priority sequence.                                                     |
-| **Offers without priority** (legacy)| When the list first loads, offers that have no saved priority are ordered by **most recently created first** and then assigned priority values automatically. |
+| Event                                | What happens                                                                                                                                                  |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Create a new offer**               | The new offer is inserted at **priority 1** within its type. Existing offers of that type shift down by one (old priority 1 becomes priority 2, etc.).        |
+| **Delete an offer**                  | Remaining offers in the same type re-rank to close the gap — no "holes" in the priority sequence.                                                             |
+| **Offers without priority** (legacy) | When the list first loads, offers that have no saved priority are ordered by **most recently created first** and then assigned priority values automatically. |
 
 ### Sort options on the Offer list
 
 The **Offer list** shows a **Priority** column and supports four sort options:
 
-| Sort option               | What you see                                    |
-| ------------------------- | ----------------------------------------------- |
-| **Priority — Ascending**  | Priority 1 first (highest priority on top)      |
-| **Priority — Descending** | Lowest priority first                           |
-| **Date Created — Newest** | Most recently created first                     |
-| **Date Created — Oldest** | Oldest first                                    |
+| Sort option               | What you see                               |
+| ------------------------- | ------------------------------------------ |
+| **Priority — Ascending**  | Priority 1 first (highest priority on top) |
+| **Priority — Descending** | Lowest priority first                      |
+| **Date Created — Newest** | Most recently created first                |
+| **Date Created — Oldest** | Oldest first                               |
 
 ### When to use priority
 

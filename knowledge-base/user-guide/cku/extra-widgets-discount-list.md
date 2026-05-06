@@ -1,7 +1,5 @@
 # Discount List
 
-# Discount List
-
 Display your active discount codes directly at checkout so buyers can find and apply them with one click.
 
 {% hint style="warning" %}
@@ -185,4 +183,3 @@ The discount list appears inline below the discount code input:
 * **Sort by savings** if you have multiple active discounts — buyers will see the best deal first, improving perceived value.
 * **Review your active discounts** — the widget shows ALL valid discount codes. If you have internal or affiliate codes that shouldn't be public, deactivate them in Shopify or set customer eligibility restrictions.
 * **Test at checkout** — create a test order to see how your discounts appear. The admin preview shows sample data, but the checkout shows real discounts.
-

@@ -1,7 +1,5 @@
 # How to use app block
 
-# How to use app block
-
 [Step 1: Enable app embed](broken-reference)
 
 [Step 2: Add app block](#step-2-add-app-block)
@@ -73,7 +71,6 @@ Here are the ways you can add the app block to  your theme:
 
 
 After successfully completing these two steps, try viewing it on your store. If you encounter any issues or have questions, please contact support for free assistance.
-
 
 
 

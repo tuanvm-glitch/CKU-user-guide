@@ -63,5 +63,8 @@ Use case: https://capture.avada.io/i/Sv55vr9c43aI
 - Check FAQ: Untitled  |
 | Exclude the total compare-at price from the discount total  | Loại trừ compare at price trong total discount value ở đây: https://capture.avada.io/i/gpcwN8Bd7Ab0  |
 | Allow using CD on Cart page | Cho phép sử dụng CD ở cart page. |
+| Process bar step delay (ms)  | Dùng để thay đổi tốc độ của progress bar https://capture.avada.io/i/qMMbbBZuHRXA  |
+|  |  |
+|  |  |
 |  |  |
 |  |  |

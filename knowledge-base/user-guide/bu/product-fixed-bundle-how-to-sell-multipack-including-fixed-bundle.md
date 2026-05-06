@@ -76,4 +76,3 @@ After adding the tiers, you will see the calculated prices, and you can preview 
 After completing these steps, review your multipack settings and how the multipack appears on your storefront to ensure everything is correct.&#x20;
 
 Your customers will be attracted to the discount structure, encouraging them to purchase more packs at once. If you need any assistance or encounter any issues, please contact our support team for help.
-

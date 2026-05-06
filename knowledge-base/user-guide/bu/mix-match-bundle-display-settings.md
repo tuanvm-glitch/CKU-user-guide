@@ -71,4 +71,3 @@ When you’re happy with the display:
 {% endstepper %}
 
 That’s it 🎉. A well-styled widget not only improves consistency with your store theme but also draws customer attention to bundle savings, making them more likely to engage and complete a purchase.
-

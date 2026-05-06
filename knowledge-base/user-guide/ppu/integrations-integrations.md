@@ -1,7 +1,5 @@
 # Integrations
 
-# Integrations
-
 Connect third-party apps to enhance your upsell offers with social proof and reviews.
 
 {% embed url="https://d2798l25hiaz3h.cloudfront.net/05frMn5NjD9Y.webp" %}
@@ -60,4 +58,3 @@ The star rating appears near the product information and helps build trust at a 
 * Use the **5 stars only** filter for the strongest social proof
 * The **Horizontal** layout works well for offers with limited vertical space
 * Combine star ratings with testimonials for maximum impact
-

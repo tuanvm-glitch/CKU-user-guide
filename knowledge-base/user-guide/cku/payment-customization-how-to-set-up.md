@@ -1,7 +1,5 @@
 # How to set up
 
-# How to set up
-
 Control which payment methods are shown at checkout, rename them, or change their display order — all powered by Shopify Functions. Changes take effect immediately after saving a rule.
 
 {% hint style="success" %}
@@ -336,3 +334,15 @@ Deletion is permanent. The rule cannot be recovered.
 * **Check Shopify Payments settings** to confirm exact payment method names before creating rename rules
 * **Use "Show only specific methods"** when you want to whitelist — it's easier than hiding many methods individually
 
+***
+
+## Share function logs
+
+If a payment rule isn't taking effect at checkout, you can share the function execution logs with the app developer to help diagnose the issue.
+
+1. In your Shopify admin, navigate to **Settings → Payments → Payment customizations**
+2. Click on **AOV Payment customization** to open the manage page
+3. Find the **Share function logs** card and click **Share logs**
+4. Confirm by clicking **Share logs** in the dialog
+
+The developer will receive the logs and can investigate why the rule isn't working as expected.

@@ -1,5 +1,0 @@
-# Promotion bar
-
-# Promotion bar
-
-

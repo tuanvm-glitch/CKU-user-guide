@@ -43,7 +43,7 @@ Thank You Page Upsells feel natural and non-intrusive, blending into the custome
 ### How to set up Thank you page upsell?
 
 {% hint style="info" %}
-#### Requirements before using
+**Requirements before using**
 
 * Add the **Thank You Page Upsell block** in **Shopify Admin → Online Store → Customize Theme → Thank You Page**.
 * Offers must be created in the **Offers tab** of the AOV.ai Post Purchase app.
@@ -270,5 +270,4 @@ To insert a variable, click the **{ }** button in the header or coupon title tex
 
 If more than one Thank you page upsell offer matches the same order, the app shows **only one** — the offer with the highest priority (priority **1** wins). Newly created offers are automatically placed at priority 1; you can reorder at any time from the **Offer list** page via **Manage priority**.
 
-See [Manage offer priority](advanced-settings-manage-offer-priority.md) for the full workflow.
-
+See [Manage offer priority](../advanced-settings/manage-offer-priority) for the full workflow.

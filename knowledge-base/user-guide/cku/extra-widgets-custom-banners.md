@@ -1,7 +1,5 @@
 # Custom Banners
 
-# Custom Banners
-
 Display custom announcements, policies, and promotions at checkout. Custom Banners let you show targeted messages — shipping info, return policies, sale announcements — right where buyers make their purchase decision.
 
 {% hint style="info" %}
@@ -248,4 +246,3 @@ Each active banner that matches conditions and is within schedule appears at the
 **Q: Can I add the same Widget ID to multiple blocks?** A: Yes, but it will show the same banner in multiple places. For different content at different positions, create separate configs with different Widget IDs.
 
 **Q: I see a yellow warning about the Custom Banner block — what do I do?** A: Follow the instructions: go to the Theme Editor, add the "AOV Custom Banner" block to the Checkout page, enter the Widget ID, and save.
-

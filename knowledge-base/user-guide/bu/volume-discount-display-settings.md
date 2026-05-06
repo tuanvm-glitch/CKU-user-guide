@@ -165,4 +165,3 @@ Adjust colors and text until the widget matches your brand and is easy to read.
 Click **Save** to apply changes.
 
 Your **Volume Discount widget** is now fully customized 🎉. By combining clear text with consistent branding, you’ll make it easier for customers to see the value of buying more and boost your sales.
-

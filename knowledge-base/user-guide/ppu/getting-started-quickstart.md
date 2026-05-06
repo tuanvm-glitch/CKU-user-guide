@@ -1,7 +1,5 @@
 # Quickstart
 
-# Quickstart
-
 Get your first upsell offer live in under 5 minutes.
 
 ## Step 1: Install the app
@@ -59,13 +57,12 @@ Use the visual editor to customize:
 1. **For Post-purchase upsell**: Go to Shopify Admin → Settings → Checkout → Post-purchase page → Select **AOV.ai Post Purchase Upsell**
 2. **For Thank you / Order status page upsell**: Go to Shopify Admin → Online Store → Customize Theme → Add the app block
 
-Place a test order to verify your offer displays correctly. Use a real checkout or Shopify's Bogus Payment Gateway.
+Use the **Verify Tool** to test your offer with a real or test checkout.
 
 ## What's next?
 
-* [Post-purchase upsell setup guide](../post-purchase-upsell/how-to-set-up)
-* [Thank you page upsell setup guide](../thank-you-page-upsell/how-to-set-up)
-* [Order status page upsell setup guide](../order-status-page-upsell/how-to-set-up)
-* [A/B Testing](../advanced-settings/ab-testing)
-* [Multi-language support](../advanced-settings/multi-language)
-
+* Post-purchase upsell setup guide
+* Thank you page upsell setup guide
+* Order status page upsell setup guide
+* A/B Testing
+* Multi-language support

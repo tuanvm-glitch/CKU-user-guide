@@ -237,5 +237,4 @@ With these foundations in place, your offer is ready, as it knows **when** to ap
 
 If more than one Order status page upsell offer matches the same order, the app shows **only one** — the offer with the highest priority (priority **1** wins). Newly created offers are automatically placed at priority 1; you can reorder at any time from the **Offer list** page via **Manage priority**.
 
-See [Manage offer priority](advanced-settings-manage-offer-priority.md) for the full workflow.
-
+See [Manage offer priority](../advanced-settings/manage-offer-priority) for the full workflow.

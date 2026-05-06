@@ -1,7 +1,5 @@
 # Cart Editor
 
-# Cart Editor
-
 Let buyers change product variants and quantities directly at checkout — without leaving the checkout flow. Cart Editor reduces friction and cart abandonment by enabling quick edits right in the Order Summary sidebar.
 
 {% hint style="info" %}
@@ -223,4 +221,3 @@ All changes apply **instantly** — cart total updates without page reload.
 **Q: I see a yellow warning banner about the Cart Editor block — what do I do?** A: Follow the instructions in the banner: go to the Theme Editor, add the "AOV Cart Editor" block to the Checkout page, and save.
 
 **Q: Where should I place the Cart Editor block?** A: Add it to the **Order Summary** section of the checkout page. The extension targets `purchase.checkout.cart-line-item.render-after`, so it automatically renders below each product line item.
-

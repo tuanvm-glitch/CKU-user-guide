@@ -9,7 +9,7 @@ description: >-
 # Show Product Metafields as Product Description
 
 {% hint style="success" %}
-#### Who can use this feature
+**Who can use this feature**
 
 This feature is available to all AOV Post Purchase merchants who use any of the following offer types:
 
@@ -121,7 +121,7 @@ Save the offer. Once this is complete, your offer will now display the custom me
 {% embed url="https://app.canvid.com/share/fi_01K1CN6H77RKZCDDM1701EBJ83" %}
 
 {% hint style="success" %}
-#### Example Use Case
+**Example Use Case**
 
 Let’s say your original product description includes 6 paragraphs of technical details. You want your upsell to show just 1 sentence:
 
@@ -171,4 +171,3 @@ Need help or have questions about metafields or templates? We're here for you.
 That’s it! You’re all set to create more focused and effective upsell pages.
 
 We’re excited to see how this feature helps you optimize your upsell experience.
-

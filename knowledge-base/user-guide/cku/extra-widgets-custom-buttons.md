@@ -1,7 +1,5 @@
 # Custom Buttons
 
-# Custom Buttons
-
 Add action buttons at checkout — call, email, or open links. Custom Buttons let buyers reach support, read FAQs, or contact your team without leaving the checkout flow.
 
 {% hint style="info" %}
@@ -253,4 +251,3 @@ Buttons render at the position where you placed the block in the Theme Editor. T
 **Q: Can I add the same Widget ID to multiple blocks?** A: Yes, but it will show the same buttons in multiple places. For different button groups at different positions, create separate configs.
 
 **Q: The block shows nothing at checkout — why?** A: Check that the Widget ID matches an active config, the config has at least one button, and the block is saved in the Theme Editor.
-

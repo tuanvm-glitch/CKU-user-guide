@@ -2,859 +2,7 @@
 
 ## FAQ
 
-# Popup ko hiện
-
-⚠️ Problem/ Request:
-
-  - Popup ko hiện
-🎗️ Possible causes:
-
-  - MC chưa enable app trong App embeds
-  - Cart value chưa đủ điều kiện nhận quà
-➡️ Support flow:
-
-  - Kiểm tra xem MC đã, activate app trong embed chưa, nếu chưa thì hướng dẫn MC activate và test lại
-  - Kiểm tra rule của campaign MC đang test, thử test lại từ phía CS sau khi đảm bảo là setting đã đúng.
-  - Nếu các setting cần thiết đã đúng và pop-up vẫn chưa hiện, tạo card cho TS investigate.
-
-
----
-
-# Lựa chọn loại campaign phù hợp cho yêu cầu setup của MC
-
-⚠️ Problem/ Request:
-
-  - Lựa chọn loại campaign phù hợp cho yêu cầu setup của KH
-  - Merchant chưa rõ về các loại campaign mà Free Gift app cung cấp.
-  - Merchant không chắc campaign nào phù hợp với mục tiêu kinh doanh hoặc loại sản phẩm của họ.
-➡️ Support flow:
-
-  - Hiểu nhu cầu của Merchant:
-  - Hỏi Merchant về mục tiêu của họ:
-    - Họ muốn tăng AOV (Average Order Value), thu hút khách hàng mới, hay giải phóng hàng tồn kho?
-    - Hỏi thêm về sản phẩm hoặc ngành hàng của Merchant để đảm bảo campaign được cá nhân hóa:
-    - Loại sản phẩm họ muốn áp dụng (bán chạy, hàng tồn kho, v.v.).
-  - Giới thiệu các loại campaign phù hợp:
-    - Buy X Get Y Free: Khách hàng mua một sản phẩm sẽ nhận được sản phẩm miễn phí. Phù hợp cho: Tăng doanh số của sản phẩm cụ thể, đẩy mạnh bán combo sản phẩm. Ví dụ: "Mua 1 áo thun, tặng 1 nón."
-    - Spend X Get Y Free: Khách hàng đạt mức chi tiêu cụ thể sẽ nhận được sản phẩm miễn phí. Phù hợp cho: Tăng AOV. Ví dụ: "Chi tiêu $50, tặng miễn phí 1 chai nước hoa mini."
-      - Free Gift with Purchase: Khách hàng mua bất kỳ sản phẩm nào sẽ nhận được quà tặng. Phù hợp cho: thu hút khách hàng mới, tăng tỷ lệ chuyển đổi. Ví dụ: "Tặng quà miễn phí cho mọi đơn hàng."...
-  - Hướng dẫn tạo campaign:
-    - Hướng dẫn Merchant vào app → chọn loại campaign → điền thông tin cụ thể.
-    - Gửi tài liệu chi tiết hoặc video hướng dẫn nếu cần.
-🗒️ References:
-
-https://help.aov.ai/knowledge-hub/understand-aov
-
-✅ Tips & Tricks:
-
-- Gợi ý Merchant chạy thử campaign với một nhóm nhỏ sản phẩm trước khi áp dụng cho toàn cửa hàng.
-- Khuyến khích Merchant theo dõi hiệu quả campaign bằng cách sử dụng báo cáo trong app.
-- Tham khảo thêm với PM/BA để cung cấp giải pháp tốt nhất cho MC
-
-
----
-
-# Page bị reload sau khi add reward
-
-⚠️ Problem/ Request:
-
-  - Khi add reward vào cart, trang sẽ tự động bị reload lại một lần. 
-🎗️ Possible causes:
-
-  - Có thể do app chưa được integrate với theme mà merchant đang sử dụng. 
-➡️ Support flow:
-
-  - CS Turn off tính năng “Auto reload” ở dev_zone: 
-- Trong TH tắt đi nhưng store vẫn bị reload sau khi add gift từ offer vào cart. CS cần xin quyền “Theme” và forward case thẳng cho team dev.
-
-
----
-
-# Ẩn congrat bar cho 1 vài campaign cụ thể
-
-⚠️ Problem/ Request:
-
-  - Ẩn congrat bar cho 1 vài campaign cụ thể. 
-➡️ Support flow - Nội bộ: 
-
-  - Tìm campaign ID bằng cách mở app → Vào mục campaigns → Mở campaign cần ẩn congrat bar.
-  - Campaign ID là một dãy số  xuất hiện ở đường link của campaign đó → Copy lại (có thể hỏi thêm colleague hoặc TS nếu không tìm thấy). 
-  - Mở Dev_zone → CS paste Campaign ID vừa copy được vào mục “Enable/discount cỏngatulation bars” → Ấn “save”.
-
-
----
-
-# MC không muốn cho customer thay đổi được số lượng Gift ở cart page hoặc cart drawer
-
-⚠️ Problem/ Request:
-
-  - MC ko muốn khách hàng edit được nút tăng hoặc giảm quantity của sản phẩm là gift ở cart drawer hoặc cart page. 
-➡️ Support flow:
-
-  - Hiện tính năng này đã có trong app settings. CS hướng dẫn MC bật ở App Settings → Lock gift quantity in cart → bật feature “Disable adjustment of gift quantity”. 
-  - Video demo: https://www.loom.com/share/e0f9c96d668b4664b09f3b4ee2535266
-🗒️ References:
-
-Case study: https://app.crisp.chat/website/72a663b0-4cda-4e3b-8878-426bdd79364c/inbox/session_25d7f814-a160-4c10-86a7-01477b881fb9/
-
-
----
-
-# Campaign không work do hết lượt Use
-
-⚠️ Problem/ Request:
-
-  Khách hàng không nhận được gift product sau khi đã thỏa mãn điều kiện trigger của campaign. 
-
-🎗️ Possible causes:
-
-  - TH1: Chưa bật campaign/ Chưa bật app embeds/ Chưa add widget của campaign đó vào theme.
-  - TH2: Hoặc có thể MC có set “Limit number of times this discount can be used in total” cho campaign đó. 
-➡️ Support flow:
-
-  - Với TH1 thì CS chỉ cần check qua các bước căn bản trên, test thử. Nếu vẫn ko work thì báo lại cho TS. 
-  - Với TH2: 
-    - CS cần check nhanh xem họ có đang bật “Limit number of times this discount can be used in total” hay không. Và nếu có bật, thì limit họ đang set là bao nhiêu? 
-
-    - Nếu đang bật và set = 2 thì nếu có 2 khách hàng place order theo trigger của campaign này rồi, campaign sẽ tự động bị expired (không ai sử dụng được campaign này nữa). 
-    - CS check số lượt sử dụng campaign ở đây để biết campaign này còn lượt sử dụng không. 
-      - Campaign list → Used. 
-- ⇒ Báo TS nếu đã check theo các bước trên nhưng campaign vẫn chưa hoạt động. 
-🗒️ References:
-
-https://trello.com/c/za65bDaN/94902-fg-free-gìt-ko-work
-
-
----
-
-# Chỉ nhận 1 Gift từ campaign trong app và Order phải apply được discount từ Shopify
-
-⚠️ Problem/ Request:
-
-  - Khách muốn customer chỉ nhận được gift từ 1 campaign và order phải sử dụng được discount code từ Shopify. 
-  - Bật combination: Khách nhận được gift từ tất cả các campaigns, chỉ cần thỏa mãn điều kiện trigger → Order đó sẽ apply được cả Shopify discount code.
-  - Ko bật combination: Khách chỉ nhận được gift từ 1 campaign (Campaign này sẽ là campaign add gift vào sau cùng, gift add vào sau sẽ remove gift add vào trước) và order đó sẽ không apply được discount code từ Shopify.
-➡️ Support flow:
-
-  - Bật combination trong app để campaign của app có thể combine được với discount của Shopify.
-  - Vào dev_zone, bật “Auto remove gift” ở Dev_zone - tính năng này sẽ đảm bảo customer chỉ nhận được gift từ 1 campaign. 
-  - Ví dụ: user có 2 campaign gift with cart value $20 và $50. User có thêm 1 discount khác ngoài Shopify có tên là SUMMER, nên họ muốn bật combination. Nhưng user muốn khi đạt điều kiện $50, chỉ nhận gift của $50 và discount SUMMER thôi, không nhận discount của campaign $20 nữa.
-
-
----
-
-# Buy X Get X - Cho phép nhận nhiều Gifts theo từng trigger    
-
-⚠️ Problem/ Request:
-
-- MC muốn BXGX campaign cho phép Customer nhận nhiều gift cùng lúc.
-🎗️ Possible causes:
-
-  Ex: Campaign BXGX có sản phẩm trigger là A và B
-
-  - Logic khi chưa bật tính năng trong dev_zone: App chỉ cho phép nhận quà 1 lần. Ví dụ, khách hàng add to cart sản phẩm A trước và add gift vào cart thì họ sẽ không nhận được thêm Gift khi add sản phẩm B vào cart nữa. 
-  - Logic sau khi bật tính năng trong dev_zone: App cho phép nhận quà nhiều lần. Ví dụ: Với mỗi lần add sản phẩm A hoặc B vào cart, nhận gift tương ứng. Nếu add cả sản phẩm A và B thì sẽ nhận được cả Gift A và Gift B. 
-➡️ Support flow:
-
-  - CS nhận request của MC → Vào dev_zone, bật tính năng “Enable logic “gift by gift” for campaign Buy X get X”.
-  - Giải thích với MC về cách hoạt động của campaign BXGX sau khi bật tính năng. 
-🗒️ References:
-
-- Link Demo cho tính năng “Enable logic ‘gift by gift’ for campaign Buy X Get X”: https://www.loom.com/share/8dddf72db1e1436188a21a13ecc89d7d?sid=3b0c06d5-3aeb-43f5-abe5-1a57aef215ba
-- Case Study: https://avadaio.slack.com/archives/C083YAETLEP/p1742227747888429
-✅ Tips & Tricks:
-
-
----
-
-# MC muốn offer discount cho khách hàng mua lần đầu 
-
-⚠️ Problem/ Request:
-
-  - MC muốn offer discount 20% cho những khách hàng mua lần đầu.
-➡️ Support flow:
-
-  - Step 1: Ở Shopify Admin → Customers → Segment, Shopify đã tạo sẵn 1 segment cho những KH chưa có order nào.
-  - Step 2: Tạo campaign “Order Goal” trong app. Set minimum = $1 (mức thấp nhất), discount = 20% và customer eligibility = Customers who haven't purchased.
-🗒️ References:
-
-https://app.crisp.chat/website/72a663b0-4cda-4e3b-8878-426bdd79364c/inbox/session_02388885-f2df-45a9-8fc9-07c9694f3f45/
-
-✅ Tips & Tricks:
-
-  - Với workflow này, customer buộc phải log in member account thì app mới trigger được.
-  - Nếu campaign không work, có thể tạo một campaign mới với trigger tương tự để test lại (do nếu campaign này được tạo từ lâu về trước, campaign sẽ bị dính trigger cũ trước khi update app → cần tạo campaign mới để test lại trước khi báo TS).
-
-
----
-
-# Promotion card: MC muốn nút “unlock your gift” work như nút “add to cart” default của theme. 
-
-⚠️ Problem/ Request:
-
-  - Default setting: khi click vào nút “Unlock your gift”, app sẽ tự động add variant mặc định của trigger product vào cart thay vì selected variant. 
-  - Ví dụ như ảnh dưới: Variant của trigger product chọn màu hồng → sau đó ấn nút “Unlock your gift” thì chỉ có cái variant “silver” được add vào cart + gift product thay vì variant “màu hồng”.
-  - MC muốn là khi customer chọn variant nào ở “theme variant selector feature” thì lúc ấn nút “Unlock your gift” thì variant đó sẽ được add vào cart page thay vì default variant “Silver”. 
-  - In short, họ muốn nút “Unlock your gift” của promotion cart work như nút “add to cart” của theme. 
-➡️ Support flow:
-
-  - CS nhận request của MC → Giải thích để confirm lại xem có phải họ muốn nút “Unlock your gift” work như nút “add to cart” của theme không.
-  - MC confirm yes → CS access dev_zone, bật tính năng: ATC Trigger.
-  - Sau đó test lại thì nút “Unlock your gift” sẽ work đúng như nút “add to cart” của theme. Nó sẽ add đúng variant mà customer đang chọn cho trigger product ở product page.
-🗒️ References:
-
-  Case study: https://app.crisp.chat/website/72a663b0-4cda-4e3b-8878-426bdd79364c/inbox/session_52dff439-da4b-4ca0-8b82-1815d84dad66/ 
-
-✅ Tips & Tricks:
-
-
----
-
-# (For CS test store) Làm thế nào để hiện “Local Currency” trong Gift With Cart Value (GWCA) setting? 
-
-⚠️ Problem/ Request:
-
-  - Ở campaign GWCA sẽ có 1 tính năng ẩn là “Local currency conversion”. 
-🎗️ Possible causes:
-
-  - Tính năng này sẽ tự động hiển thị trong campaign setting nếu store của MC có nhiều hơn 1 country trong Market setting. 
-  - Vậy CS cần làm gì để hiện tính năng này cho mục đích testing? 
-➡️ Support flow:
-
-  - CS cần có nhiều hơn 1 country active trong 1 market ở Shopify Admin Settings. 
-  - CS cần enable “Use local currencies” ở trong Markets’ settings.
-🗒️ References:
-
-  CS follow guide ở trên để bật tính năng này và test trên store.
-
-
----
-
-# Gift được set discount, nhưng vẫn bị charge full giá (Campaign GWCA).
-
-⚠️ Problem/ Request:
-
-  - Cam “Gift With Cart Value”: Gift đã được set discount nhưng ở cart page hoặc check out page nó vẫn bị tính full giá gốc. 
-🎗️ Possible causes:
-
-  - Trường hợp 1: Như những case bình thường, nếu settings không có vấn đề gì, xin quyền theme (edit code) + quyền vào discounts ở Shopify Admin của MC và forward lại case cho Dev/TS. 
-  - Trường hợp 2: Lỗi ở setting do MC set quá nhiều Excluded products ở campaign “Gift with Cart Value”. 
-➡️ Support flow cho trường hợp 2:
-
-  - CS check xem campaign của MC có đang được sử dụng excluded product ko? 
-  - Nếu có, thì giới hạn sẽ là 100-150 products. Nếu MC add nhiều hơn 100-150 products thì app sẽ hiện warning. 
-  ⇒ Dev giải thích là: do thêm nhiều exclude product quá nên bị chết function => CS báo khách add tối đa 100 exclude product thì app mới work. 
-
-  - CS giải trình lại với MC trước > có thể nói là giới hạn của Shopify. Team đang tìm cách tối ưu hóa.
-  - Vậy workaround ở đây sẽ là gì? 
-    - CS recommend MC group những products KHÔNG nằm trong excluded list này vào 1 hoặc nhiều collection. 
-    - Sau đó, chuyển qua dùng campaign “Gift With Collection Value”.
-🗒️ References:
-
-  Case study 1: https://app.crisp.chat/website/72a663b0-4cda-4e3b-8878-426bdd79364c/inbox/session_f138016f-3e6d-4cba-a97c-d4a846a852b0/
-
-  Case study 2: https://app.crisp.chat/website/72a663b0-4cda-4e3b-8878-426bdd79364c/inbox/session_65998c62-f9d4-4055-b939-7bbbac9e9da0/
-
-✅ Tips & Tricks:
-
-  Internal note: Hiện dev đang nghiên cứu để tối ưu hóa chỗ này. CSL sẽ update lại FAQ sau khi có chỉnh sửa mới từ dev.
-
-
----
-
-# Gift with cart value offer gift dựa trên giá gốc của sản phẩm thay vì giá sau discount.
-
-⚠️ Problem/ Request:
-
-  - Hiện tại, campaign này sẽ tính cart value dựa trên giá gốc của sản phẩm. Không tính giá sau khi sản phẩm đó đã được áp discount. 
-🎗️ Possible causes:
-
-  Ví dụ: 
-
-  - Sản phẩm có giá là 45$. Campaign setting là: mua 45$ thì sẽ được free gift.
-  - Customer add sản phẩm này vào cart. Sản phẩm này được giảm giá còn $30, nhưng app vẫn tính theo giá gốc là $45 và offer gift cho customer. 
-➡️ Support flow:
-
-  - Vào dev_zone bật tính năng: Final price.
-  - Sau khi bật feature, hệ thống sẽ check lại subtotal sau khi áp dụng discount từ app bên thứ ba → customer không nhận được Free gift bởi vì giá sau giảm là $30 (không thỏa mãn điều kiện tối thiểu $45 mới được nhận gift).
-
-
----
-
-# Các trường hợp xảy ra khi tạo nhiều campaign Gift With Cart Value (GWCA) với các mốc threshold khác nhau thì app sẽ work như thế nào? 
-
-⚠️ Problem/ Request:
-
-  - Trong TH MC set 2 campaign GWCA với 2 mốc threshold khác nhau thì app sẽ work như thế nào? 
-  - Thread này sẽ giải đáp cả 2 trường hợp: bật combination và không bật combination.
-🎗️Tình huống giả định: 
-
-  - Campaign 1: Mua 100$ để nhận quà A.
-  - Campaign 2: Mua 200$ để nhận quà B. 
-➡️ Support flow:
-
-  Trường hợp 1: Không bật combination.
-
-  - Nếu add đủ 100$ → nhận quà A, và tiếp tục tăng cart value lên 200$ thì pop up quà B sẽ hiện. Nếu customer chọn add quà B vào cart thì quà A sẽ tự động bị remove. 
-  - Tương tự, nếu ngược lại: add đủ 200$ vào cart → nhận quà B, sau đó reduce cart value xuống còn 100$ thì quà B sẽ giữ nguyên và bị charge full giá. Đồng thời, quà A sẽ pop up để customer add to cart. 
-  Trường hợp 2: Bật combination.
-
-  - Nếu add đủ 100$ vô cart trước → sẽ hiện pop up quà A → add quà A vào cart. Sau đó, nếu tăng cart value lên 200$, quà B sẽ pop up tiếp → add tiếp quà B vào cart. Customer sẽ nhận được cả 2 gifts.
-  > 
-
-    - Tuy nhiên, nếu ngay từ đầu add sản phẩm vào cart mà đạt 200$ luôn thì chỉ quà B hiện và quà A sẽ bị skip (Vì nó chỉ ăn gift gần nhất). 
-      - CS vào dev_zone bật feature “Stackable gifts for CA or CO” → ăn hết toàn bộ gift thay vì chỉ ăn gift gần nhất. 
-      - Có nghĩa là nếu add trực tiếp 200$ vào cart → Customer sẽ nhận luôn cả Gift A và Gift B cùng lúc. 
-🗒️ References:
-
-Dev-zone guide link: Hướng dẫn sử dụng Dev_zone 
-
-✅ Tips & Tricks:
-
-
----
-
-# Logic combination của campaigns/discounts cùng loại
-
-⚠️ Problem/ Request:
-
-  - MC set up nhiều discounts có trigger products trùng nhau và bật combination, mong muốn khách hàng sẽ nhận được nhiều gift/discount.
-🎗️ Possible causes:
-
-  - Hiện tại thì logic hoạt động của discount không cho phép điều đó: với các discount cùng loại mà cùng thỏa mãn 1 giỏ hàng thì discount nào có giá trị lớn hơn sẽ được áp dụng. 
-    - Ví dụ: tạo 2 BXGY campaigns cho cùng 1 sản phẩm X, thì khi mua sp X, sản phẩm Y ở campaign nào được discount nhiều hơn thì sẽ được add vào cart.
-  - Với các discount khác loại + không bật combination: logic sẽ ưu tiên discount được tạo gần nhất
-    - Ví dụ: tạo 1 Product discount ngày 1/6  và 1 Order discount ngày 3/6, ngày 5/6 khách mua sản phẩm thoả mãn cả 2 discounts thì chỉ có duy nhất Order discount ngày 3/6 sẽ được apply 
-  - Logic áp dụng cho tất cả discount từ AOV apps và Shopify Discount.
-➡️ Support flow:
-
-  - MC thắc mắc campaigns không work dù đã bật combination: check lại xem là campaign cùng loại thì sẽ không works chung được, giải thích cho khách theo logic bên trên, là quy tắc chung cũng như Shopify Discount
-  - Discount khác loại thì bật combination, bật rồi nhưng không works thì tạo card TS
-🗒️ References:
-
-CS có thể tự tạo campaigns để test và hiểu chính xác logic, thấy chat liên quan thì bổ sung vào đây ạ.
-
-
----
-
-# Gift with Quantity Purchase logic 
-
-⚠️ Problem/ Request:
-
-- Đặt vấn đề: Với setting như trên, add 3 sản phẩm vào cart thì sản phẩm rẻ nhất được free. 
-  - Quantity: 3
-  - Apply for: All products 
-  - Customer gets: Gift with the lowest price 
-- Câu hỏi của MC: Vậy mua nhiều hơn 3 (mua 4, 5, 6,…) thì app có detect sản phẩm rẻ nhất và offer nó Free không? 
-➡️ Support flow:
-
-- Với setting như trên, mua nhiều hơn 3 thì app sẽ load 1 lúc và detect lại sản phẩm rẻ nhất như bình thường → Vẫn Work. 
-- Hiểu đơn giản, setting quantity ở campaign này sẽ có nghĩa là lớn hơn hoặc bằng 3.
-- Với setting này thì mua ít hơn 3, cụ thể là 2 → thì app sẽ ko work.
-
-
----
-
-# Bản chất của campaign Buy X get Y - Phân biệt BXGY với GWQa
-
-⚠️ Problem/ Request:
-
-- Bản chất của campaign Buy X get Y - Phân biệt BXGY với Gift with quantity purchase campai
-- Với setting sau, CS đang hiểu nhầm là mua 2 sản phẩm bất kỳ trong list 8 sản phẩm X1, X2, X3,…, X8 thì được tặng sản phẩm Y miễn phí. 
-  - Trigger condition: 
-    - Quantity: 2
-    - Trigger product: X1, X2, X3,…, X8. 
-  - Offer list: 
-    - Offer product: Y
-- Tuy nhiên, cách hiểu trên là hoàn toàn SAI. 
-✅ Cách hiểu đúng: 
-
-- Bản chất campaign Buy X get Y có nghĩa là bạn mua sản phẩm X, thì bạn được tặng sản phẩm Y → Mua X thì mới được Y. 
-- Khi set quantity bằng 2, thì có nghĩa là mua 2 sản phẩm X1 hoặc X2,…. Chứ không phải mua 1 sản phẩm X1 kèm 1 sản phẩm X2 thì được Y. (Nhầm với campaign gift with quantity purchase). 
-  > Ví dụ: 
-
-    - Như campaign mẫu ở trên. Mua 2 cái áo đen thì mới được tặng cái quần bò.
-    - Nếu mua 1 cái áo đen + 1 cái áo nâu → sẽ KHÔNG được tặng cái quần bò. 
-- Khi MC request campaign mua 2 sản phẩm bất kỳ trong list trigger product → recommend MC sử dụng Gift with Quantity Purchase. 
-> Note: 
-
-  - Hỏi lại leader nếu ko hiểu và cần ví dụ thực tiễn.  
-  - BXGY sử dụng điều kiện OR. 
-  - Gift with quantity purchase sử dụng điều kiện AND.
-
-
----
-
-# Work Flow của BXGY và Gift W Quantity Purchase
-
-⚠️ Problem/ Request:
-
-  - Issue: Khi MC tạo 2 campaign BXGY và Gift W Quantity Purchase hoạt động cùng lúc và có trigger và gift tương tự nhau, thì campaigns sẽ không work như expect, sẽ có gift add vào nhưng bị charge
-🎗️ Possible causes:
-
-  - Việc gift nhảy vào nhưng bị charge làm MC hiểu rằng có lỗi app, 
-➡️ Support flow:
-
-  - Giải thích rõ do 2 campaigns set up cùng trigger/gift, nên logic 2 campaign giống hệt nhau → sẽ tạo ra luồng ko mong muốn như gift bị charge
-  - Cần hỏi lại MC xem mong muốn chính xác của họ khi tạo 2 campaign đó là gì → đưa ra solution phù hợp nhất
-  - Giải pháp tức thời là chỉ sử dụng 1 campaign (GWQP sẽ bao quát rộng hơn phạm vi work của BXGY nên suggest dùng GWQP).
-🗒️ References:
-
-https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_ca4baa4b-ec76-45b2-9f4e-eb09a5921b59/
-
-✅ Tips & Tricks:
-
-
----
-
-# Milestone Reward campaign Combination 
-
-⚠️ Problem/ Request:
-
-- Hiện tại trong milestone campaign check không có phần boxes combination như các campaigns khác. 
-- MC muốn tắt combination của Milestone thì làm thế nào?
-🎗️ Possible causes:
-
-➡️ Support flow:
-
-- Phương án duy nhất là tắt combination ở discount khác để nó không work chung với milestone.
-- Nhưng trong trường hợp MC muốn các discount khác work với nhau. Chỉ trừ mỗi milestone thì sao?
-⇒ Giải thích: do Milestone works with many different discount workflows, using code workbase, MC chỉ cần tắt ít nhất 1 option discount trong 3 options là dc, ko quan trọng là type nào
-- Nếu trong trường hợp cần cả 3 discount combination turn on thì không có giải pháp, cần tạo các campaigns mới thay cho Milestone. (cân nhắc Gift with quantity purchase). 
-> Explanation message: 
-
-  The Milestone Reward campaign works with many different discount workflows, which is why it does not have the combination on itself. If you do not want it to work with any other discount, the only way is to turn off the combination of those discount settings. 
-
-  
-The Milestone Reward does not fall under any specific discount type, so you can turn off one of the three discount types—Product Discount, Order Discount, or Free Shipping Discount—in other discount settings to prevent it from being combined with the Milestone Reward campaign.
-
-🗒️ References:
-
-https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_434b2f9f-0d89-44a8-9f50-6faa0712d99b/
-
-✅ Tips & Tricks:
-
-
----
-
-# Các access cần xin khi campaign không work
-
-⚠️ Problem/ Request:
-
-- Khi gặp các issue liên quan đến app. Bất kể là issue gì, thì mọi người cần xin những quyền nào trước khi forward cho dev? 
-➡️ Support flow:
-
-  1/ Lỗi liên quan đến sản sản phẩm hoặc ko add được gift: 
-
-  - Theme
-  - Discount
-  - Product
-  2/ Lỗi liên quan đến order (Gift bị charge full giá): 
-
-  - Theme 
-  - Discount
-  - Product 
-  - Order
-
-
----
-
-# Gift selection method đối với discount type của gift
-
-⚠️ Problem/ Request: 
-
-  - Bình thường, có các sự lựa chọn cho Gift selection method như là pop-up, floating button, automatic. Tuy nhiên, khi đổi discount type sang các dạng khác, ko để là “FREE” thì phần Gift selection method ko có mục automatically add
-🎗️ Possible causes: 
-
-  - Vì Shopify ko cho phép các app tự động add sản phẩm có giá vào cart, nó ko có consent của người mua.
-  - App must display full costs and obtain explicit buyer consent before adding optional paid items to Storefront, Cart, or Checkout. This applies to both the app’s default features and any merchant customization options the app provides. 
-  - Tuy nhiên, có nhiều MC đã request tính năng tự động add sản phẩm Y vào cart kể cả sản phẩm đó chỉ được discount 1 số % nhất định. 
-  - CS vào dev_zone, bật tính năng “Show congrats bar with percent or fixed discount” để app work như MC muốn. 
-🗒️ References: https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_706bb166-e718-409e-b6cc-98f79a181ca4/
-
-
----
-
-# Milestone reward - final price workflow 
-
-⚠️ Problem/ Request:
-
-  Lưu ý: Đã hỗ trợ “Final Price” trong Milestone Reward
-
-➡️ Support flow - Giải thích chi tiết kèm ví dụ:
-
-  ✅ 1. Order Discount 
-
-  - Điều kiện: Chi tiêu $200 để được giảm 10% toàn bộ đơn hàng.
-  - Trường hợp:
-    - Khách thêm đủ $200 vào giỏ.
-    - Sau đó họ dùng thêm mã giảm giá 20% khác.
-    - Giá trị giỏ hàng sau giảm không còn đủ $200.
-    → Khách ko nhận được discount 10% từ milestone sau khi sử dụng mã giảm giá 20% khác. 
-
-  ✅ 2. Free Shipping 
-
-  - Điều kiện: Chi tiêu $400 để được miễn phí vận chuyển.
-  - Trường hợp tương tự:
-    - Khách add đủ $400 vào giỏ.
-    - Áp mã giảm giá khác 20%.
-    → Cart value giảm xuống dưới $400, khách ko nhận được miễn phí vận chuyển nữa. 
-
-  ✅ 3. Free Gift 
-
-  - Điều kiện: Chi tiêu $600 để nhận quà tặng.
-  - Trường hợp:
-    - Khách đạt đủ $600 → được tặng Free Gift.
-    - Sau đó họ áp mã giảm giá 20%.
-  - Giá trị giỏ hàng sau giảm < $600 → Free Gift sẽ tự bị remove hoặc bị tính phí, vì app tính theo giá sau discount (Final price).
-
-
----
-
-# Gift with Quantity Purchase workflow 
-
-⚠️ Problem/ Request:
-
-  - Tình huống giả định - Combination discount đang được bật ở tất cả 3 campaigns. 
-    - Mua 3 được quà A 
-    - Mua 6 được quà B
-    - Mua 9 được quà C 
-  - Có 2 trường hợp xảy ra: 
-    - Trường hợp 1: Nếu add 3 > quà A hiện > add tiếp 3 sp nữa > quà B hiện. Tổng có 6 sản phẩm trong cart và nhận được cả quà A và B. 
-    - Trường hợp 2: Nhưng nếu add thẳng 6 vào cart > Chỉ quà B hiện > quà A sẽ bị skip. 
-  - Trong trường hợp MC muốn khách nhận cả A và B nếu add như trường hợp 2 là add thẳng 6 thì làm như thế nào?
-➡️ Support flow:
-
-- CS vào dev_zone bật tính năng này để thay đổi flow của app. 
-  - Tính năng: Has add multiply gift (QU)
-🗒️ References:
-
-https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_2f3b4071-c470-4195-b33c-e7b85d264036/
-
-
----
-
-# Auto remove gift on Checkout and Prevent expired campaign gifts from being checked out (Shopify Plus only) 
-
-⚠️ Request:
-
-  - Tính năng “Auto-remove Gift on Checkout”:
-    - Cho phép hệ thống tự động xóa quà tặng khỏi checkout khi khách hàng áp dụng discount code khiến giá trị đơn hàng (NET order price) không còn đủ điều kiện nhận quà.
-    - Điều này giúp đảm bảo tính chính xác của campaign và tránh tình trạng khách hàng nhận quà dù không còn đạt điều kiện.
-  - Prevent expired campaign gifts from being checked out: 
-    - Một số khách hàng đã thêm free gift vào giỏ hàng khi campaign còn active nhưng chưa checkout ngay. 
-    - Khi họ quay lại sau vài ngày — chiến dịch đã hết hạn (expired), nhưng quà tặng vẫn còn trong giỏ và vẫn được checkout miễn phí.
-🗒️ References:
-
-  - Nhiều merchant (đặc biệt Shopify Plus) có nhu cầu đảm bảo giá trị đơn hàng cuối cùng (final price) sau khi áp dụng code vẫn hợp lệ.
-  - Trước đây, hệ thống chỉ kiểm tra điều kiện ở cart → dẫn đến trường hợp gift vẫn hiển thị trong checkout dù đơn hàng đã giảm giá.
-  - Để đảm bảo quà tặng chỉ được giữ lại khi campaign còn hiệu lực, hệ thống đã hỗ trợ tính năng tự động kiểm tra và xóa quà hết hạn tại trang checkout.
-  - Điều kiện: Chỉ khả dụng cho Shopify Plus.
-    - Bước 1: Truy cập Shopify Admin → Settings → Checkout
-    - Bước 2: Nhấn nút Customize
-    - Bước 3: Tại thanh Add block → chọn “AOV Checkout Add-on”
-    - Bước 4: Nhấn Save để hoàn tất
-> Video Demo: https://drive.google.com/file/d/1Ve0niXdHtBtOl_gcqRyBMHI_Uru1NXc1/view?usp=sharing
-
-
----
-
-# Phân biệt “Multiplying Gift Limit” và “Multiplying formula” 
-
-⚠️ Problem/ Request:
-
-- Phân biệt “Multiplying Gift Limit” và “Multiplying formula” 
-- Location: 
-  - Multiplying Gift limit nằm trong Gift limit feature → Bật “Gift limit” feature lên thì sẽ hiện.
-  - Multiplying formula nằm trong “Advance settings”. 
-🎗️ Phân biệt - Lấy bối cảnh là campaign Buy X get Y: 
-
-- Multiplying Gift limit:
-- Ảnh bao gồm: 
-  - 2 Trigger products: Quần xanh và áo nâu. 
-  - 3 Offer products: X, Y, Z. 
-- Với settings như ảnh - Coi 3 sản phẩm Gift là X, Y, Z. 
-  - Mua 1 quần xanh → Được chọn 1 trong 3 XYZ. 
-  - Mua 2 quần xanh → Được chọn 2 trong 3 XYZ. 
-  - Mua 3 quần xanh → Được chọn cả 3 sp XYZ làm gift. 
-  - Lưu ý thêm: 
-→ Nếu mua từ 3 sp quần xanh trở lên ⇒ Customer vẫn chỉ nhận được maximum là 3 sản phẩm XYZ. Ko thể chọn 4 từ list 3 sản phẩm XYZ này. 
-2/ Multiplying Formula:
-
-- Settings tương tự như trên: 
-  - Vẫn để “Gift Limit” = 1. 
-  - Bật “Multiplying Formula”. 
-- Với settings này: 
-  - Mua 1 quần xanh → Được 1X hoặc 1Y hoặc 1Z. 
-  - Mua 2 quần xanh → Được 2X hoặc 2Y hoặc 2Z. 
-  - Mua 3 quần xanh → Được 3X hoặc 3Y hoặc 3Z. 
-  - Mua 4 quần xanh → Được 4X hoặc 4Y hoặc 4Z. 
-  - ….
-> 
-
-  - Tính năng “Multiplying Gift Limit” cho phép customer chọn 1X + 1Y + 1Z. 
-  - Tính năng “Multiplying Formula” chỉ cho phép customer chọn 3X hoặc 3Y hoặc 3Z. 
-> Vậy trong TH MC muốn vừa chọn được nhiều Gift, vừa được multiplying nhiều hơn số sản phẩm trong list Y thì làm sao? (hạn chế của Multiplying Gift limit). 
-
-  - Bật Multiplying Gift Limit: 
-  - Bật Gift Quantity Selector: 
-  - Bật 2 features trên cùng 1 lúc → thì sẽ offer được nhiều Gift hơn số lượng sản phẩm trong list sản phẩm Y. Ví dụ như ảnh dưới, list sản phẩm Y chỉ có 2, tuy nhiên, mua 3 sản phẩm X, vẫn tùy chọn được 3 sản phẩm Y. 
-✅ Tips & Tricks:
-
-Request leader demo lại tính năng nếu không hiểu. 
-
-Reference: https://trello.com/c/obOkUn1W
-
-
----
-
-# MC muốn dùng Milestone bar để hiển thị processing nhưng ko muốn nó work 
-
-⚠️ Problem/ Request:
-
-  - MC (merchant) muốn dùng widget của milestone reward campaign để hiển thị processing nhưng lại không muốn app work.
-  - Thay vào đó, MC sẽ dùng app khác hoặc discount của Shopify để offer gift/discount tương ứng với setting. 
-➡️ Support flow:
-
-  - CS vào dev_zone, bật 2 tính năng dưới đây cho MC: 
-    - No apply code milestone reward.
-    - Skip adding product tier milestone.
-  - Khi bật lên, reward ở từng tier trong milestone reward sẽ không được áp dụng. Sử dụng khi MC chỉ muốn dùng reward bar với mục đích hiển thị. MC sẽ sử dụng phương thức khác để offer gift. 
-  - Tuy nhiên, nếu tier có sản phẩm gift thì gift vẫn sẽ bị add vào cart và bị charge full giá. Nếu muốn sản phẩm gift ko bị add vào cart → bật tính năng ở dưới: Skip adding product tier milestone 
-  - Khi bật, sản phẩm gift trong milestone reward sẽ không bị add vào cart nữa. 
-  - Dùng chung với tính năng ở trên: No apply code milestone reward 
-🗒️ References:
-
-https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_f5ce75f8-609c-4e91-ad05-ca6335161677/
-
-
----
-
-# Phân biệt campaign GWCA (Gift with cart value) và GWCV (Gift with collection value)
-
-⚠️ Problem/ Request:
-
-Phân biệt campaign GWCA (Gift with cart value) và GWCV (Gift with collection value). Nếu settings của chúng trong app như nhau
-
-➡️ Support flow:
-
-  Campaign GWCA với điều kiện như sau: 
-
-  - Mua $200 + include trigger product là A → thì nhận được quà B. 
-  - Case này có nghĩa là để nhận được quà B, customer bắt buộc phải thỏa mãn 2 điều kiện:
-    - Điều kiện 1: Cart value = $200 (có thể đạt được cart value = 200 với nhiều sản phẩm, chứ không nhất thiết là chỉ mua sản phẩm A). 
-    - Điều kiện 2: Trong cart phải có sự xuất hiện của sản phẩm A.
-    → Thì campaign mới trigger và tặng quà B.
-
-  Campaign GWCV với điều kiện như sau: 
-
-  - Mua $200 ở TRONG collection “Top” → Customer sẽ nhận được quà C. 
-  - Case này có nghĩa là, để nhận được quà C, customer bắt buộc phải thỏa mãn điều kiện: 
-    - Điều kiện 1: Cart value phải đủ $200 trong phạm vi của tất cả các sản phẩm nằm trong collection “Top”. 
-    - Điều kiện 2: Nếu customer chỉ mua $150 tiền sản phẩm trong collection “Top” và $50 tiền sản phẩm nằm ngoài collection này, thì customer đó chưa thỏa mãn điều kiện. 
-🗒️ References:
-
-  Contact CSL nếu chưa hiểu để được giải thích kỹ hơn. 
-
-✅ Tips & Tricks:
-
-
----
-
-# By pass rule nhưng vẫn nhận được gift
-
-⚠️ Problem/ Request:
-
-  - Order không đủ điều kiện để trigger nhưng vẫn nhận được gift. 
-🎗️ Possible causes:
-
-  - Khách checkout nhanh để bypass rule và nhận gift. 
-➡️ Support flow:
-
-  - CS vào dev_zone và bật 2 features để fix lỗi trên. 
-    - Custom Checkout
-    - Remove Gift On Checkout (for milestone campaign) 
-  - Mục đích: disable nút checkout đi để hệ thống kiểm tra giỏ hàng, nếu không thỏa mãn thì xóa gift rồi mới cho active nút checkout. 
-🗒️ References:
-
-✅ Tips & Tricks:
-
-
----
-
-# MC muốn customer tuỳ chọn gift với settings Multiplying
-
-⚠️ Problem/ Request:
-
-  - MC muốn dùng multiply formula hoặc multiply gift limit và shopper có thể chọn lựa các variant thoải mái trong pop-up hoặc floating button. 
-  - Ví dụ: 2A - 1B - 1C/ hoặc 1A - 1B - 2C…
-➡️ Support flow:
-
-  - MC cần bật 2 features Multiply gift limit và Gift quantity selector cùng lúc.
-  - Hệ thống chưa support bật cùng lúc Multiply formula và Gift quantity selector, nên MC cần chuyển sang dùng “Multiply gift limit” và “Gift quantity selector”.
-
-
----
-
-# Failed to apply promotion 
-
-⚠️ Problem/ Request:
-
-  - Sau khi tạo campaign và test ở Shopify POS. Khi Staff/MC add gift vào cart thì báo lỗi “Failed to apply promotion” như ảnh dưới. 
-🎗️ Possible causes:
-
-  - Có 2 nguyên nhân chính: 
-    - Lỗi do phía Shopify POS: CS báo MC ấn nút “Add to cart” vài lần. Hoặc thoát app ra và vào lại. 
-    - Lỗi ở Products settings → Locations. 
-➡️ Support flow:
-
-  - CS xin quyền Products và Locations. 
-  - CS bốc random 1 sản phẩm trong list offer product → Tìm sản phẩm đó trong Products từ Shopify Admin → Check setting Publishing xem “Point of Sale” đã được enable chưa. 
-  - Sau khi update xong thì app sẽ work lại bình thường ở Shopify POS. 
-🗒️ References:
-
-✅ Tips & Tricks:
-
-
----
-
-# Không add được app vào Shopify POS
-
-⚠️ Problem/ Request:
-
-  - Ở POS integration guide sẽ có phần yêu cầu MC add Title → chọn Apps option → add app “AOV.ai Free Gift” vào Homescreen. Nếu MC không tìm thấy app ở mục app list để add vào thì làm như thế nào?  
-  - Case này thường sẽ lỗi nếu MC access vào Shopify POS từ tablet hoặc điện thoại. 
-➡️ Support flow:
-
-  - CS guide MC add trực tiếp từ trên máy tính của họ → Shopify Admin. 
-  - Các steps cần follow: 
-    - Mở app Point of Sale → Mở settings app → Ở General chọn POS apps → Mở AOV.ai Free Gift app → Chọn “Add”. 
-  - Sau khi add app vào từ Shopify Admin, CS báo MC reload lại Shopify POS ở điện thoại hoặc tablet và check lại. Sau khi thành công, app sẽ hiển thị ở POS Home như ảnh: 
-🗒️ References:
-
-  https://help.aov.ai/advanced-settings/pos-integration
-
-✅ Tips & Tricks:
-
-
----
-
-# Free Gift billing
-
-⚠️ Billing overview - How billing works:
-
-  - App charges are based on the merchant's (MC) current Shopify plan.
-  - Each billing cycle lasts 30 days, starting after the 7-day free trial. Example: trial activated on March 25 → billing starts April 1 → first cycle is April 1–30.
-  - Monthly plans have a revenue threshold. If app-generated revenue exceeds this threshold, a usage fee applies: Total = Monthly price + Usage fee
-  - Yearly plans on all tiers include unlimited revenue — no usage fees.
-| Shopify Plan  | Monthly | Yearly | Revenue threshold | Unit Price (Usage fee) | Max cap |
-| Free | $0 | $0 | $500 | - | - |
-| Basic | $19.99 | $191.90 (save 20%) | Unlimited | - | - |
-| Grow/Professional | $29.99 | $287.90 (save 20%) | Unlimited | - | - |
-| Advanced | $49.99 | $479.90 (save 20%) | $10,000 | $10 / $1,000 over | $200 |
-| Plus | $99.99 | $959.90 (save 20%) | $30,000 | $10 / $1,000 over | $300 |
-🎗️ Usage fee example
-
-  Scenario: Merchant on Shopify Advanced plan ($49.99/mo), app revenue this month = $20,000
-
-  - Over threshold: $10,000 = $20k - $10k cap
-  - Calculated fee: $249.99 = $49.99 + ($10 x 20)
-  - Actual charge: $200 - Max cap applies
-  The usage fee would be $249.99, but the Advanced plan has a $200 max cap — so the merchant is only charged $200 for that month.
-
-🗒️ Refund policy for CS team:
-
-  I/ When is a merchant eligible for a refund?
-
-    1 - MC mới sử dụng app trong vòng 30 ngày đầu kể từ khi lên bản trả phí.
-
-    2 - MC quá thời hạn 7 ngày trial mà không cancel (7 days < x < 30 days).
-
-    3 - MC không hài lòng khi sử dụng app → cần escalate lên CSL.
-
-  II/ Quy trình xử lý refund
-
-    Step 1 — Clarify billing for MC
-
-      - Giải thích rõ cho MC: chu kỳ charge, cách app tính phí, và lý do họ bị charge. Đảm bảo MC hiểu trước khi tiến hành forward case cho CSL. 
-    Step 2 — Thu thập thông tin
-
-      - Xin billing screenshot bao gồm:
-      - Hỏi MC lý do cancel subscription và request refund.
-    Step 3 — Tạo card & chờ duyệt
-
-      - Tạo card Billing cho CSL, hẹn khách 2–3 working days, team billing sẽ check và phản hồi.
-  III/ Nguyên tắc tuyệt đối
-
-    > KHÔNG tự ý approve refund cho MC — dù ở bất kỳ case nào, kể cả case Urgent.
-
-    > KHÔNG trả treo, nói lý nếu MC bực mình và đe dọa cho bad review.
-
-    > Lưu ý: Refund chỉ được approve khi có xác nhận từ CSL — không có ngoại lệ.
-
-  IV/ Case high-risk
-
-    > Thu thập đầy đủ thông tin theo quy trình trên, sau đó escalate urgent cho CSL / BA / anh Huy. Giữ thái độ bình tĩnh và chuyên nghiệp với MC — không tranh cãi, không tự ý approve refund.
-
-
----
-
-# Milestone hiển thị trong cart nhưng không apply discount ở checkout
-
-⚠️ Problem/ Request:
-
-  Trong cart vẫn có giảm giá nhưng khi đi đến bước trả tiền thì sản phẩm/quà tặng trở về giá đầy đủ và discount biến mất.
-
-🎗️ Possible causes:
-
-  Ấn checkout thì url có "discount=", bị thiếu thông tin discount
-
-➡️ Support flow:
-
-  Bật setting custom discount trong dev_zone
-
-🗒️ References:
-
-  https://www.notion.so/avadagroup/H-ng-d-n-s-d-ng-Dev_zone-1b6b0da449f1804284f6c7a7fcd8a6d6?source=copy_link
-
-✅ Tips & Tricks:
-
-
----
-
-# Add Milestone widget vào cart page
-
-⚠️ Problem/ Request:
-
-  - MC muốn display milestone widget trong cart page 
-➡️ Support flow:
-
-  - Hiện tại, nếu chỉ dùng tính năng “add block” hoặc “add section” trong theme, CS chỉ add được vào trang product page. 
-  - Nếu muốn add vào Cart page, cần add bằng Feature Selector trong Dev_zone. 
-  - CS hỏi vị trí MC muốn add trong cart page, và forward request cho TS add.
-
-
----
-
-# Gift on Slide Cart của nhiều offers
-
-⚠️ Problem/ Request:
-
-  - Gift on Slide cart widget trong preview thấy có thể hiện nhiều offer cùng lúc và MC muốn hiển thị tương tự. 
-  - Nhưng khi test 2 camp Gift With Cart Value thì lại không thấy hiện 2 offer mà chỉ hiện cái thuộc camp có giá trị cao hơn
-
-➡️ Support flow:
-
-  - Hiện tại Gift on Slide cart chỉ có thể hiển thị đồng thời nhiều offer khi chúng được tạo từ các campaign khác loại. Ví dụ: Buy X Get Y + Gift With Cart Value
-  - Nếu là các campain cùng loại, thì sẽ chỉ hiện offer của campaign có giá trị cao nhất hay mới tạo gần nhất
-🗒️ References:
-
-https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_e58af5c6-6a6e-4222-8768-0c5fa7f65876/
-
-✅ Tips & Tricks:
-
-
----
+(Chưa có FAQ)
 
 ## Dev_zone
 
@@ -876,8 +24,8 @@ Lưu ý: Contact leader hoặc CS member cùng team để hỏi nếu vẫn chư
 | Auto Theme Match | Cho phép sử dụng button “Apply to match” ở widget editor: https://ibb.co/s9jFZYh9 - bình thường tính năng này sẽ bị khóa. |
 | Disable Badge Limit | Remove character limit restrictions from deal badges - Đã bị deactivate. |
 | Allow setting 0 | Cho phép MC set value = 0. Ví dụ: discount percentage field. |
-| Check gift zero price | chỉ dành cho product team, TS/CS vui lòng ko sử dụng  |
-| Can edit quantity for cart value campaign | chỉ dành cho product team, TS/CS vui lòng ko sử dụng  |
+| [TS] Check gift zero price | chỉ dành cho product team, TS/CS vui lòng ko sử dụng  |
+| [TS] Can edit quantity for cart value campaign | chỉ dành cho product team, TS/CS vui lòng ko sử dụng  |
 | Gift as trigger | Chỉ áp dụng cho cam GWQP (Lowest priced gift). Nếu user có 1 cam lowest và một số cam khác. Ví dụ cụ thể mua 2 dc nhận 1 lowest price, mua 4 nhận dc discount 25%, thì khi buyer mua 4 và bật cái này lên thì hệ thống sẽ coi lowest price gift là 1 trigger product ⇒ suy ra có 4 trigger product, nếu ko bật thì chỉ tính là 3 trigger product  |
 | Show congrats bar with percent or fixed discount | Bình thường:
 Gift dạng % discount hoặc fixed amount không thể auto-add vào cart. Merchant bắt buộc phải dùng pop-up hoặc floating button để cho khách tự chọn. 
@@ -914,22 +62,22 @@ Ví dụ: user có 2 Cam cart value $20, $50. và user có 1 discount ngoài Sho
 | ATC Trigger
 (dùng cho promotion card) | Trigger promotion card khi click vào nút ATC. . Bất kỳ lỗi nào liên quan đến promotion card thì thử button này trước. |
 | Keep Gift No Discount | Giữ gift nếu discount ko được set combine > Gift product sẽ được giữ lại trong cart, tuy nhiên sẽ bị charge full price. |
-| API Delay | delay API 1s đối với những store add gift chậm |
+| [TS] API Delay | delay API 1s đối với những store add gift chậm |
 | Auto Reload | - Tự động reload lại trang sau khi add gift vào cart. - Tính năng này support cho 1 vài theme cần reload lại trang để update cart. |
 | Block Checkout | Khóa nút “Checkout” khi trigger condition chưa đạt đủ điều kiện. |
 | BXGX V2 | • Logic khi chưa bật tính năng trong dev_zone: App chỉ cho phép nhận quà 1 lần. Ví dụ, KH add to cart sản sp A trước và add gift vào cart > thì họ sẽ ko nhận được thêm Gift khi add sản phẩm B vào cart nữa.
 • Logic sau khi bật tính nắng trong dev_zone: App cho phép nhận quà nhiều lần. Ví dụ: Với mỗi lần add sp A hoặc B vào cart > nhận gift tương ứng. Nếu add cả sp A và B thì sẽ nhận được cả Gift A và Gift B.
 
 Check chi tiết ở flow này: Buy X Get X - Cho phép nhận nhiều Gifts theo từng trigger  |
-| Badge After Image | 1 vài store ảnh sản phẩm đè lên trước( front) cái promotion badge của app ⇒ ⇒ bật cái này lên và đồng thời query vào ô class của promotion badge trong dev_zone
+| [TS] Badge After Image | 1 vài store ảnh sản phẩm đè lên trước (front) cái promotion badge của app ⇒ bật cái này lên và đồng thời query vào ô class của promotion badge trong dev_zone
 
 Về back end:
 Cái này là khi add block promotion_card trong dev_zone ⇒ thì nó sẽ chèn vào sau cái querySelector đấy, nếu không bật thì chèn vào trước  |
-| Position Before Progress Bar | 1 vài store theme ko hỗ trợ thay đổi vị trí của progress bar
+| [TS] Position Before Progress Bar | 1 vài store theme ko hỗ trợ thay đổi vị trí của progress bar
 ⇒ bật cái này lên và đồng thời query vào button đứng trên progress bar rồi input vào ô class của progress bar trong dev_zone |
-| Custom Checkout | dành cho TS/dev dành cho các case mà khi click vào button checkout thì parameter có chứa ?discount= nên gift bị charge ⇒ bật chức năng này lên + đồng thời query checkout button là resolve |
+| [TS] Custom Checkout | dành cho TS/dev dành cho các case mà khi click vào button checkout thì parameter có chứa ?discount= nên gift bị charge ⇒ bật chức năng này lên + đồng thời query checkout button là resolve |
 | Final Price | Check chi tiết ở flow này: Gift with cart value offer gift dựa trên giá gốc của sp thay vì giá sau discount. |
-| Fetch cart when show gift | dành cho dev dùng Mặc định: Mỗi lần add gift xong thì ko fetch lại cart → bật lên thì Mỗi lần add gift thì hệ thống fetch lại cart để cập nhật lại giỏ hàng |
+| [TS] Fetch cart when show gift | dành cho dev dùng Mặc định: Mỗi lần add gift xong thì ko fetch lại cart → bật lên thì Mỗi lần add gift thì hệ thống fetch lại cart để cập nhật lại giỏ hàng |
 | Stackable gifts for CA or CO
 (Gift With Cart Value) | Hiện tại Nếu khách có nhiều cam cart value mà các cam đều combine, khách mà add thẳng lên cam Cart value cao nhất thì chỉ nhất được gift cam cao nhất→ Bật chức năng này lên thì: ăn hết toàn bộ gift thay vì chỉ ăn gift gần nhất |
 | Hide click product new tab | Lúc click vào product trong pop-up ra tab mới của product đấy→ bật lên thì unclick |
@@ -938,9 +86,9 @@ Cái này là khi add block promotion_card trong dev_zone ⇒ thì nó sẽ chè
 | Check duplicate request | Store có 2 sự kiện add gift thì gift bị add 2 lần → bật lên thì chỉ còn add gift 1 lần |
 | Optimize remove gift | Remove gift and trigger (update cart) at the same time. |
 | Optimize add gift | Tối ưu tốc độ Add gift, nhanh hơn trước rất nhiều (bằng cách apply code trước product sau) |
-| Auto apply discount code | dành cho dev dùng: Xử lý trường hợp: gift bị charge → thì khi bật lên cứ mỗi lần reload sẽ apply code 1 lần |
+| [TS] Auto apply discount code | dành cho dev dùng: Xử lý trường hợp: gift bị charge → thì khi bật lên cứ mỗi lần reload sẽ apply code 1 lần |
 | No show cart | Với theme Horizon, nếu enable thì ko hiển thị cart drawer khi add gift |
-| Hide quantity input in cart
+| [TS] Hide quantity input in cart
  | dành cho TS dùng:
 - Ẩn ô quantity trong cart của sp gift
 - Cách dùng: vừa enable vừa query “Quantity input in cart” |
@@ -957,40 +105,87 @@ Khi bật tính năng này:
 → Chỉ hiển thị gift của các milestone đã đạt.
 → Những gift ở mốc chưa đạt sẽ không hiện trong box. |
 | Skip add product implicitly | Bật cái này nếu store nào dùng app và bị tự động mở cart drawer ⇒ thì bật cái này |
-| Check copy product handle
+| [TS] Check copy product handle
  | dành cho TS/dev
 để check với mấy cái product copy => khi copy thì trong handle của nó có dạng copy-of-.... || ...-copy => cái này có thể sẽ khác với đường dẫn của nó trên url (ảnh dưới) => mình bật dev_zone này để so sánh phần handle không chứa từ copy  |
-| Use Fetch API |  |
+| [TS] Use Fetch API | Dùng Fetch API hiện đại thay vì XMLHttpRequest. Ví dụ: Fix compatibility với theme mới, hoặc tận dụng abort signal |
 | Redirect checkout after add gift | Redirect customer to cart page sau khi sp gift được add vào cart tự động.  |
-| Insert all components |  |
+| [TS] Insert all components | Render toàn bộ widget component trên storefront, không filter. Ví dụ: Debug: hiện hết tất cả widget để kiểm tra |
 | No apply code milestone reward | - Khi bật lên thì reward ở từng tier trong milestone reward sẽ ko được apply. 
 - Sử dụng khi MC chỉ muốn dùng reward bar với mục đích hiển thị. MC sẽ sử dụng phương thức khác để offer gift. 
 - Tuy nhiên, nếu tier có sp gift thì gift vẫn sẽ bị add vào cart và bị charge full giá. Nếu muốn sp gift ko bị add vào cart → bật tính năng ở dưới: Skip adding product tier milestone  |
-| Delay query selector cart drawer | For theme when cart drawer selector loads late |
+| [TS] Delay query selector cart drawer | For theme when cart drawer selector loads late |
 | Skip adding product tier milestone | - Khi bật, thì sản phẩm gift trong milestone reward sẽ ko bị add vào cart nữa. 
 - Dùng chung với tính năng ở trên: No apply code milestone reward  |
-| Use Shopify Cart API for discount codes |  |
+| [TS] Use Shopify Cart API for discount codes | Apply discount code qua Shopify Cart API (frontend) thay vì backend. Ví dụ: Shop dùng theme Dawn → bật để apply nhanh hơn, không cần backend call |
 | Show all promotion cards |   • Use case: https://capture.avada.io/i/eX6vT320HJUp 
   • Cho phép show nhiều promotion card trên cùng 1 product page. |
-| Show all gift in explanation of milestone |  |
+| Show all gift in explanation of milestone | Hiện tất cả gift có sẵn trong popup milestone. Ví dụ: Tier có 5 gift → hiện cả 5, không ẩn gift chưa chọn |
 | Receive maximum gifts  |   • Bắt buộc khách hàng chọn full available gifts trên pop-up thì mới click add to cart được. Bình thường thì chọn 1/2 gift, 2/3 gifts... vẫn add vào cart được
   • Reference case: https://app.crisp.chat/website/af3eac71-f176-46a3-9ec4-37cff9ad09c3/inbox/session_51a85b6c-e6e6-4bd8-9ada-32a625e04efb/ |
 | Prevent Re-Adding Expired |   • Sau khi bật tính năng, sẽ có option để add time cụ thể. Cho phép tuỳ chỉnh thời gian gift sẽ được tự động trigger sau bao lâu kể từ khi MC xoá gift product ra khỏi giỏ hàng:  https://capture.avada.io/i/31PZlzbjwp3p 
   • Sau khi customer xoá gift đi (trigger Prevent readding gift đang bật), CS điền time vào dev_zone như ảnh mẫu ở trên. Ví dụ điền là 5p → Thì sau khi xoá gift đi, thì 5p sau trigger add gift đó mới work lại.  |
-| Enable max gift quantity |  |
-| Only load on product & cart page |  |
-| Exclude gift bundle |  |
-| Skip apply discount code to cart |  |
-| Skip refresh selection after add gift |  |
-| Enable add parent line key |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Enable max gift quantity | Cho phép set max gift quantity riêng cho từng campaign. Ví dụ: Campaign A max 2 gift, Campaign B max 5 gift |
+| Only load on product & cart page | Chỉ load script trên trang product & cart, không chạy ở collection/home/blog. Ví dụ: Tối ưu performance cho shop lưu lượng cao |
+| Exclude gift bundle | Gift được tặng trong campaign bundle không được tính làm trigger cho campaign khác. Ví dụ: Campaign A tặng Gift X → Gift X không được tính là trigger cho Campaign B |
+| Skip apply discount code to cart | Không tự apply discount code vào cart khi page load. Ví dụ: Shop có 20 discount code → không muốn auto apply gây conflict |
+| Skip refresh selection after add gift | Không reset selection sau khi add 1 gift trong stack. Ví dụ: Customer đang chọn 3 gift → add xong 1 vẫn giữ selection của 2 còn lại |
+| Enable add parent line key | Gắn gift với trigger product bằng parent line key. Ví dụ: Remove trigger product thì gift cũng bị remove theo |
+| Custom product image | Cho phép merchant upload ảnh tùy chỉnh cho sản phẩm gift thay vì ảnh gốc từ Shopify. Ví dụ: Merchant muốn dùng 1 ảnh banner lạ mắt cho gift |
+| [TS] Use first node | Dùng element đầu tiên match CSS selector thay vì element visible đầu tiên. Ví dụ: Theme có 2 node .product (1 hidden cho SEO, 1 visible) → bật để chọn node hidden |
+| Only auto campaigns | Chỉ check campaign auto-grab-gift khi tính eligibility, bỏ qua campaign manual. Ví dụ: Shop có 5 campaign auto + 3 manual → chỉ 5 cái auto được check điều kiện |
+| [TS] Reset cart URLs to default | Bỏ qua custom cart URLs, dùng endpoint mặc định của Shopify. Ví dụ: Merchant config cart URL sai → bật để reset về mặc định |
+| Skip campaign check on load | Không tính eligibility campaign khi page vừa load. Ví dụ: Shop có 50 campaign → bỏ qua tính lúc load để tránh lag |
+| Skip cart data on load | Không fetch cart data từ integration khi page load. Ví dụ: Shop dùng Shopify Markets → bỏ fetch cart Markets để giảm request |
+| Single item mode | Quick add gift chỉ trả về 1 item trong response. Ví dụ: Theme cần response đơn giản, không handle array |
+| Sync storage before ATC | Đồng bộ localStorage (campaign state) trước khi Add-to-Cart. Ví dụ: Fix race condition: state chưa kịp update → ATC nhầm |
+| Add trigger before gift | Add trigger product trước rồi mới add gift, không add song song. Ví dụ: Theme không cho add nhiều item cùng lúc → phải tuần tự |
+| Delay after removing gift | Thời gian chờ (ms) trước khi add gift mới sau khi vừa remove. Ví dụ: Tránh conflict với theme chưa kịp refresh cart |
+| [TS] Skip theme update | Không gọi API update theme khi có thay đổi. Ví dụ: Tránh gọi Shopify Admin API khi preview |
+| Remove gifts before adding | Remove hết gift cũ rồi mới add gift mới (flow mới). Ví dụ: Fix bug: gift cũ và mới cùng tồn tại, sai logic |
+| Enable stackable gifts | Cho phép stack gift nhiều campaign (CA, CO, QU cùng lúc). Ví dụ: Mua $100 + 2 items → nhận cả gift cart-value lẫn gift qty |
+| No delay for stacked gifts | Bỏ delay giữa các lần add gift khi stack. Ví dụ: Nhanh hơn nhưng dễ conflict với theme chậm |
+| Keep excess gifts | Giữ gift dư trong cart khi customer add nhiều hơn allowed. Ví dụ: Campaign cho 1 gift, customer bấm add 3 → bật thì giữ cả 3 |
+| Show highest price product | Hiển thị product có giá cao nhất trong GWQU campaign. Ví dụ: Mua 3 chai nước → gift ghi tặng sản phẩm $50 (giá cao nhất) |
+| Keep gift on campaign switch | Giữ gift khi switch giữa 2 campaign cùng trigger qty. Ví dụ: Campaign A và B đều trigger khi qty=3 → không bị reset gift khi chuyển A→B |
+| Remove gift on checkout | Xoá gift milestone không đủ điều kiện trước khi redirect checkout. Ví dụ: Customer qua tier 2 rồi lùi về tier 1 → xoá gift tier 2 trước khi checkout |
+| Congrats bar duration | Thời gian (ms) congrats bar tồn tại trước khi tự ẩn. Ví dụ: Set 5000ms → bar hiện 5s rồi tự ẩn |
+| Product image redirect | Click ảnh gift → mở trang product. Ví dụ: Customer muốn xem chi tiết trước khi chọn |
+| Disable auto-select variant | Không auto chọn variant đầu tiên, bắt customer tự chọn. Ví dụ: Gift áo có size S/M/L → customer phải click chọn |
+| Design settings fields | Config màu, spacing, button style của gift on cart. Ví dụ: Đổi màu primary, padding, rounded corner |
+| Delay badge display | Chờ 1s rồi mới hiện deal badge. Ví dụ: Theme lazy load image → đợi image load rồi mới gắn badge |
+| Skip image size check | Hiện deal badge ngay cả khi ảnh product nhỏ hơn mức bình thường. Ví dụ: Ảnh product 50x50px → vẫn hiện badge (mặc định cần 100+px) |
+| Open cart after gift | Auto mở cart drawer sau khi add gift thành công. Ví dụ: Customer add gift → drawer trượt ra để confirm |
+| Auto-close cart drawer | Tự đóng drawer sau khi hiện xong. Ví dụ: Hiện 2s rồi tự ẩn |
+| Auto Theme Fit | Auto khớp style widget với theme shop. Ví dụ: Theme dark → widget tự đổi màu dark |
+| [TS] Unlock locked widgets | Unlock Deal of the day và Gifts on Slide cart cho shop. Ví dụ: Shop free tier → bật để dùng widget premium |
+| [TS] Unlock all features | Unlock toàn bộ feature premium cho shop (master switch). Ví dụ: Demo shop / CS test → bật để thấy hết feature |
+| [TS] customTitleSelectItem input | Custom CSS selector cho tiêu đề sản phẩm trong popup. Ví dụ: Theme custom → selector .custom-product-title |
+| [TS] CSS/JS textarea | Inject custom CSS/JS vào shop để fix edge case. Ví dụ: Theme có .cart-foot conflict → inject CSS override |
+| [TS] Shopify cart URLs input | Danh sách URL cart page custom. Ví dụ: Theme có cart ở /basket thay vì /cart |
+| [TS] Exclude cart URLs input | URL cart cần loại trừ không chạy script. Ví dụ: Trang /cart/embedded dùng cho iframe → exclude |
+| Priority campaign select | Campaign nào được ưu tiên khi nhiều campaign cùng match. Ví dụ: 2 campaign cùng eligible → chọn highest discount |
+| [TS] Republish | Re-publish scripttag/theme-extension ra storefront. Ví dụ: Debug: widget không hiện → republish để fix |
+| [TS] Create storefront access token | Tạo token truy cập Storefront API. Ví dụ: Lấy token để fetch product từ frontend |
+| [TS] Update webhook | Update toàn bộ webhook (topic, URL) cho shop. Ví dụ: Đổi backend URL → update webhook trỏ về URL mới |
+| [TS] Fetch webhook | Fetch danh sách webhook đang đăng ký từ Shopify. Ví dụ: CS check: shop có những webhook gì |
+| [TS] Remove metafield giftCampaigns | Xoá metafield giftCampaigns khỏi shop. Ví dụ: Reset data campaign bị lỗi, sync lại từ đầu |
+| [TS] Remove plan discount code | Set planDiscountCode = null cho shop. Ví dụ: Shop downgrade plan → xoá mã discount của plan cũ |
+| [TS] Show onboarding | Bật lại onboarding flow cho shop. Ví dụ: QA test: force shop mới setup lại |
+| [TS] Sync iana timezone to metafield | Đồng bộ timezone IANA vào metafield shop. Ví dụ: Shop có timezone UTC-7 → ghi vào metafield cho scripttag đọc |
+| [TS] Remove webhook | Xoá 1 webhook theo ID. Ví dụ: Nhập ID 1234567890 → gỡ webhook đó |
+| [TS] Update revenue limit reset interval | Set chu kỳ reset revenue limit (số ngày). Ví dụ: Set 30 → cứ 30 ngày reset counter revenue |
+| [TS] Plan buttons (Free/Pro/Growth) | Force set plan name cho shop (không qua Shopify billing). Ví dụ: QA test Pro plan: click Pro |
+| Skip used trial days | Bỏ qua số ngày trial đã dùng, reset lại. Ví dụ: Shop dùng hết 14 ngày trial → reset về 0 |
+| [TS] App version select (V1/V2/V3/V4) | Force shop dùng phiên bản app cụ thể. Ví dụ: Test shop trên V3 trước khi migrate lên V4 |
+| [TS] Test installed at | Fake ngày cài app cho shop. Ví dụ: Test logic khuyến mãi cho user mới: set installedAt = 1 ngày trước |
+| [TS] Test revenue limit | Test revenue limit với value cụ thể. Ví dụ: Set $10000 → check xem có block đúng ở $10k không |
+| [TS] Extend trial days | Kéo dài trial X ngày. Ví dụ: Customer xin extend 7 ngày nữa |
+| [TS] Enable Order Assistant | Bật Order Assistant (AI suggest) cho Yodeyma. Ví dụ: AI gợi ý thêm sản phẩm khi customer gần trigger |
+| Enable custom checkout gift prompt | Hiện prompt gift custom ở checkout. Ví dụ: Prompt bạn có 3 gift đang chờ trên trang checkout |
+| [TS] Force Yodeyma plan (for testing) | Force shop dùng rule đặc thù của Yodeyma. Ví dụ: QA test feature riêng cho Yodeyma |
+| [TS] Enable B2B Inventory | Check inventory theo customer segment + location (B2B). Ví dụ: Customer VIP ở HN → check kho HN đủ hàng |
+| [TS] Check metafield us_oc_instock | Check metafield us_oc_instock để quyết định show product. Ví dụ: Product có us_oc_instock: false → ẩn khỏi gift list |
 Dev & Test tools - Có một vài tính năng CSS riêng theo yêu cầu của từng store - https://capture.avada.io/i/twsBcNlVQHSQ 
 - ACE check qua, có khách nào hỏi tính năng tương tự thì mn cứ double-check lại với bên Dev + BA/PO cho chắc nhé. 
 
@@ -1007,4 +202,54 @@ Dev & Test tools - Có một vài tính năng CSS riêng theo yêu cầu của t
 
 ## User Guide (danh sách — đọc file cụ thể nếu cần)
 
-(Chưa có User Guide)
+- `user-guide/fg/gettting-started-welcome.md` — Welcome
+- `user-guide/fg/promotion-campaign-buy-x-get-y.md` — Buy X Get Y
+- `user-guide/fg/promotion-campaign-gift-with-cart-value.md` — Gift with Cart Value
+- `user-guide/fg/promotion-campaign-gift-with-collection-value.md` — Gift with Collection Value
+- `user-guide/fg/promotion-campaign-gift-with-quantity-purchase.md` — Gift with Quantity Purchase
+- `user-guide/fg/promotion-campaign-milestone-rewards.md` — Milestone Rewards
+- `user-guide/fg/promotion-campaign-milestone-rewards-milestone-rewards-1.md` — Milestone Rewards - Cart Drawer
+- `user-guide/fg/promotion-campaign-how-to-set-up-order-goal-campaign.md` — Order Goal
+- `user-guide/fg/promotion-campaign-how-to-set-up-order-goal-campaign-promote-order-goal-with-ann.md` — Promote Order Goal with Announcement Bar
+- `user-guide/fg/promotion-campaign-shipping-goal.md` — Shipping Goal
+- `user-guide/fg/promotion-campaign-checkout-upsell.md` — Checkout Upsell
+- `user-guide/fg/promotion-campaign-checkout-progress-bar.md` — Checkout - Progress bar
+- `user-guide/fg/set-up-gift-recieving-method-congrats-bar-auto-add-gift.md` — Congrats Bar - Auto add gift
+- `user-guide/fg/set-up-gift-recieving-method-pop-up.md` — Pop-up
+- `user-guide/fg/set-up-gift-recieving-method-floating-button.md` — Floating button
+- `user-guide/fg/promote-your-campaign-promotion-card.md` — Promotion Card
+- `user-guide/fg/promote-your-campaign-deal-of-the-day.md` — Deal of the Day
+- `user-guide/fg/promote-your-campaign-tiered-reward-box.md` — Tiered Reward Box
+- `user-guide/fg/promote-your-campaign-tiered-reward-box-how-does-the-tiered-reward-box-help-boos.md` — How Does the Tiered Reward Box Help Boost Your Store's AOV?
+- `user-guide/fg/promote-your-campaign-deal-badge.md` — Deal Badge
+- `user-guide/fg/promote-your-campaign-milestone-bar.md` — Milestone bar
+- `user-guide/fg/advanced-settings-subscription-integration.md` — Subscription integration
+- `user-guide/fg/advanced-settings-pos-integration.md` — POS integration
+- `user-guide/fg/advanced-settings-gift-limit.md` — Gift limit
+- `user-guide/fg/advanced-settings-multiply-gift.md` — Multiply gift
+- `user-guide/fg/advanced-settings-lowest-priced-gift.md` — Lowest priced gift
+- `user-guide/fg/advanced-settings-translation.md` — Translation
+- `user-guide/fg/advanced-settings-specific-link.md` — Specific Link
+- `user-guide/fg/advanced-settings-a-b-testing.md` — A/B testing
+- `user-guide/fg/advanced-settings-customer-segment.md` — Customer segment
+- `user-guide/fg/advanced-settings-customer-location.md` — Customer location
+- `user-guide/fg/advanced-settings-apply-code-to-get-gift.md` — Apply code to get gift
+- `user-guide/fg/advanced-settings-pop-up-hidden-time.md` — Pop-up hidden time
+- `user-guide/fg/advanced-settings-gift-quantity-selector.md` — Gift quantity selector
+- `user-guide/fg/knowledge-hub-faqs.md` — FAQs
+- `user-guide/fg/knowledge-hub-test-without-going-live.md` — Test without going live
+- `user-guide/fg/knowledge-hub-understand-aov.md` — Understand AOV
+- `user-guide/fg/knowledge-hub-privacy-policy.md` — Privacy Policy
+- `user-guide/fg/knowledge-hub-combine-multiple-campaigns.md` — Combine multiple campaigns
+- `user-guide/fg/knowledge-hub-gift-with-quantity-purchase-volume-discount.md` — Gift With Quantity Purchase + Volume Discount
+- `user-guide/fg/knowledge-hub-gift-with-collection-value-volume-discount.md` — Gift with Collection Value + Volume Discount
+- `user-guide/fg/knowledge-hub-gift-with-quantity-purchase-buy-x-get-y.md` — Gift with Quantity Purchase + Buy X Get Y
+- `user-guide/fg/knowledge-hub-buy-x-get-y-volume-discount.md` — Buy X Get Y + Volume Discount
+- `user-guide/fg/knowledge-hub-gift-with-cart-value-buy-x-get-y-bxgy.md` — Gift with Cart Value + Buy X Get Y (BXGY)
+- `user-guide/fg/knowledge-hub-volume-discount.md` — Volume Discount
+- `user-guide/fg/knowledge-hub-feature-updates-q3-q4-2025.md` — Feature updates: Q3/Q4 2025
+- `user-guide/fg/knowledge-hub-affiliate-program.md` — Affiliate program
+- `user-guide/fg/knowledge-hub-subscription-restrictions.md` — Subscription restrictions
+- `user-guide/fg/pricing-info-quota-usage-for-free-plan.md` — Quota usage for Free plan
+- `user-guide/fg/pricing-info-definition-of-revenue-by-app.md` — Definition of Revenue by App
+- `user-guide/fg/pricing-info-monthly-charge-calculation.md` — Monthly charge calculation

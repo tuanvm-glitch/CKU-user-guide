@@ -190,4 +190,3 @@ After configuring all settings, review your campaign settings to ensure everythi
 Once satisfied, click **Save** at the bottom of the page to launch your Volume Discount campaign.
 
 And that's it! You've successfully set up the Volume Discount campaign and create a captivating experience for your customers. Happy selling!
-

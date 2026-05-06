@@ -1,7 +1,5 @@
 # How to set up
 
-# How to set up
-
 Control which shipping options appear at checkout, how they're named, and in what order. Create rules to hide irrelevant methods, rename them for clarity, or reorder them to promote your preferred option.
 
 {% hint style="info" %}
@@ -192,3 +190,15 @@ When you select **Reorder delivery method**, the Rule Action section lets you se
 * **One rule per purpose** — create separate rules for different scenarios rather than trying to handle everything in one rule.
 * **Check the limits** — Shopify allows up to **25 active shipping rules** and **25 active payment rules** at once.
 
+***
+
+## Troubleshoot with function logs
+
+Having trouble with a delivery rule not applying at checkout? You can send the function logs directly to the developer for investigation.
+
+1. Open your Shopify admin and go to **Settings → Shipping and delivery → Delivery customizations**
+2. Select **AOV Delivery customization** to view the management page
+3. In the **Share function logs** section, click **Share logs**
+4. Hit **Share logs** again in the confirmation popup
+
+Once shared, the developer can review the execution logs to identify and resolve the issue.

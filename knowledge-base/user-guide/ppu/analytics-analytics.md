@@ -1,7 +1,5 @@
 # Analytics
 
-# Analytics
-
 Track the performance of your upsell offers with detailed analytics and reporting.
 
 {% embed url="https://d2798l25hiaz3h.cloudfront.net/EEQ6xQIEyB0x.webp" %}
@@ -45,4 +43,3 @@ You can **reset analytics** for individual offers if needed (e.g., after making 
 * **Low conversion?** Try A/B testing different discount values, headlines, or templates
 * **High impressions but low revenue?** Consider increasing your discount or improving your product selection
 * Use the **Offer Auditor** to get AI-powered recommendations for optimization
-

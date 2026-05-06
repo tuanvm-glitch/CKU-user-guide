@@ -1,7 +1,5 @@
 # Image Carousel
 
-# Image Carousel
-
 Display promotional images, banners, and campaign visuals at checkout with an interactive slideshow. Buyers see your content while completing their purchase — with optional links to drive traffic to promotions.
 
 {% hint style="info" %}
@@ -201,4 +199,3 @@ After saving your carousel in the app, add it to your checkout page:
 **Q: What's the recommended frame size?** A: For the main content area, try 600 x 250px. For the Order Summary sidebar, try 380 x 200px. Adjust based on your images.
 
 **Q: Can I use GIFs for animated slides?** A: Yes. GIF files are supported and will animate in the carousel.
-

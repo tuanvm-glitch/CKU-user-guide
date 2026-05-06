@@ -336,4 +336,3 @@ These formatting options are available on most text-based widgets (Header, Produ
 | -------------------- | ------------------------------------------- |
 | Light grey (Subdued) | Subtle grey background to separate sections |
 | Transparent          | No background, blends with the widget       |
-

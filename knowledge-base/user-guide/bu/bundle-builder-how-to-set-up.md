@@ -162,4 +162,3 @@ A popup will appear automatically if this is your first time saving the offer. F
 {% endstepper %}
 
 Congrats! You've done with all the set up. **Bundle Builder** helps you drive more sales by encouraging customers to buy in volume with dynamic tiered discounts. It's flexible, engaging, and fully customizable to fit your store’s look and feel. Happy selling!\~
-

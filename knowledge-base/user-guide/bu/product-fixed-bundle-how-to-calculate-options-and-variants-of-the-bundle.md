@@ -119,4 +119,3 @@ Number of variants = Variants of P1 × Variants of P2 × Variants of P3
 Number of variants = 12 × 4 × 3 = 144
 
 Finally, once you’ve mastered the calculations, you’re ready to create bundles that meet all the requirements. Let’s [dive back in and set up bundles](how-to-set-up) that work perfectly for your needs!<br>
-

@@ -145,4 +145,3 @@ Once satisfied, click **Save** to activate the offer.
 
 That's it! Leverage the **Frequently Bought Together** feature to give your customers value-packed deals while boosting your revenue. Start creating your first bundle today! 🚀
 
-

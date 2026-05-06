@@ -1,7 +1,5 @@
 # Claim Confirmation
 
-# Claim Confirmation
-
 Show customers a confirmation message after they accept an upsell offer. This builds trust by clearly showing the updated order details.
 
 {% embed url="https://d2798l25hiaz3h.cloudfront.net/kVYsZi0NINhG.webp" %}
@@ -58,4 +56,3 @@ Claim confirmation labels can be translated for multi-language stores. Go to the
 ## Availability
 
 Claim Confirmation is available for **Post-purchase upsell** offers. It appears immediately after the customer clicks the accept button on the post-purchase page.
-

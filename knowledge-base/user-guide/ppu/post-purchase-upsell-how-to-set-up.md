@@ -190,7 +190,6 @@ Choose how to add products
 * **AI recommendation**: Let AOV.ai suggest products for this upsell based on your store type and goals. Review the suggestions and confirm. You can edit products later.
 * **Specific product**: Pick one or more products/variants manually. Use this when you already know the best add‑on.
 * **Specific collection**: Select a collection to auto‑populate from its items (ensure stock is available). Useful for dynamic or seasonal ranges.
-* **Complementary product** `NEW`: Auto‑suggests add‑ons that are most often bought together with the **trigger products** you set in Step 3. Requires the offer to use **Specific product** triggers with at least one product. The app ranks suggestions by real co‑purchase orders from your shop first, then fills remaining slots with best‑selling products matching the trigger's product type.
 * **Most expensive in cart**: Automatically offers a discount on the highest-priced item from the customer's current order. No manual product selection required.
 * **Least expensive in cart**: Automatically offers a discount on the lowest-priced item from the customer's current order. Useful for "add the cheapest item free" promotions.
 {% endstep %}
@@ -222,7 +221,6 @@ Select **Add product** and choose a source
 * **AI recommendation** — Let AOV.ai suggest downsell items. Review and confirm.
 * **Specific product** — Search and select one or more products/variants.
 * **Specific collection** — Pick a collection to populate items dynamically.
-* **Complementary product** `NEW` — Suggests products most often bought with your **trigger products**. Requires **Specific product** triggers. Good fallback for a downsell when Upsell #1 is declined — offer a frequently co‑purchased accessory at a deeper discount.
 * **Most expensive in cart** — Automatically targets the highest-priced item from the original order.
 * **Least expensive in cart** — Automatically targets the lowest-priced item from the original order.
 
@@ -277,7 +275,6 @@ Select **Add product** and choose a source
 * **AI recommendation** — Use suggestions tailored to your store and goals; review and confirm.
 * **Specific product** — Manually select product(s)/variant(s) that pair with Upsell #1.
 * **Specific collection** — Choose a collection to draw items from.
-* **Complementary product** `NEW` — Suggests products frequently bought with your **trigger products**. Requires **Specific product** triggers. Use this to keep Upsell #2 tightly related to what the customer already accepted.
 * **Most expensive in cart** — Automatically targets the highest-priced item from the original order.
 * **Least expensive in cart** — Automatically targets the lowest-priced item from the original order.
 {% endstep %}
@@ -293,69 +290,6 @@ After adding a product, open the **edit** modal (pencil icon)
 * Select **Save**.
 {% endstep %}
 {% endstepper %}
-
-***
-
-#### Using Complementary product suggestions
-
-**Complementary product** is a smart picker that finds products your customers often buy together with the trigger item(s) you set in **Trigger conditions → Specific product**. It replaces guesswork with real purchase data from your shop.
-
-{% hint style="info" %}
-**Prerequisites**
-
-* Offer type must be **Post-purchase upsell**.
-* Trigger condition must be **Set conditions → Specific product** (Include) with at least one trigger product.
-{% endhint %}
-
-{% stepper %}
-{% step %}
-First, set your trigger: in **Step 1 → Trigger conditions**, choose **Set conditions** → add a **Product (or variant) → Include** rule with at least one trigger product.
-
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/6EO7J5FJxPX7.webp" %}
-{% endstep %}
-
-{% step %}
-In **Step 2 → Upsell offer**, on any Upsell/Downsell card select **Add products → Complementary product** (badge **NEW**).
-
-If the trigger is not yet set, a warning banner appears asking you to add a Specific product trigger first.
-
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/4eRGlhEv5EG9.webp" %}
-{% endstep %}
-
-{% step %}
-The app opens the **Select complementary products** modal and fetches suggestions. Behind the scenes it queries recent orders and ranks candidates by:
-
-1. **Co‑purchase orders** with the trigger product (frequently bought together), sorted by how many orders contained both.
-2. **Best‑selling fallback** with the same product type as the trigger, for stores or triggers that don't yet have enough co‑purchase data.
-
-Each trigger product has its own ranked list, so suggestions for "Coffee beans" and "Coffee grinder" come back sorted independently — you won't see a grinder ranked above beans just because it sells well globally.
-
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/pK7jecz7MopB.webp" %}
-{% endstep %}
-
-{% step %}
-Review the suggestions
-
-* For a single trigger, you see one list of suggested products.
-* For multiple triggers, switch between triggers in the modal header to pick the right complementary item per trigger.
-* Use the search box to filter by name.
-* If the store has no co‑purchase or fallback data yet, the modal shows **No complementary products available** — use **AI smart pick** or **Specific product** instead.
-{% endstep %}
-
-{% step %}
-Tick the products you want and select **Select**. They merge into the card's product list with a **Complementary** badge; existing manual picks are preserved.
-
-{% embed url="https://d2798l25hiaz3h.cloudfront.net/kYJdmzn4SCzQ.webp" %}
-{% endstep %}
-{% endstepper %}
-
-{% hint style="success" %}
-**When to use each source**
-
-* **Complementary product** — You know which trigger items to target (for example, "anyone who buys a coffee machine"), and you want the app to find the highest-converting add‑ons automatically.
-* **AI recommendation** — You want broad product suggestions based on store goals, without committing to a specific trigger.
-* **Specific product** — You already know the exact add‑on and want full control.
-{% endhint %}
 
 ***
 
@@ -394,9 +328,8 @@ To insert a variable, click the **{ }** button in the header text field and sele
 
 If more than one Post-purchase upsell offer matches the same order, the app shows **only one** — the offer with the highest priority (priority **1** wins). Newly created offers are automatically placed at priority 1; you can reorder at any time from the **Offer list** page via **Manage priority**.
 
-See [Manage offer priority](advanced-settings-manage-offer-priority.md) for the full workflow.
+See [Manage offer priority](../advanced-settings/manage-offer-priority) for the full workflow.
 
 ***
 
 You’ve now learned how to set up and configure your **Post Purchase Upsell** offers. By combining these steps, you create an upsell flow that feels natural for customers and drives meaningful increases in Average Order Value.
-

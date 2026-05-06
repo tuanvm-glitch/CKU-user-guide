@@ -1,7 +1,5 @@
 # Testimonials
 
-# Testimonials
-
 Show product reviews at checkout to boost buyer confidence. Testimonials automatically matches reviews to products in the cart — buyers see relevant social proof right when they're making their purchase decision.
 
 {% hint style="info" %}
@@ -198,4 +196,3 @@ After saving your testimonial config in the app, add it to your checkout page:
 **Q: How does pagination work at checkout?** A: Buyers see Prev/Next buttons below the reviews. Clicking advances to the next set of reviews.
 
 **Q: Do reviews show the reviewer's profile picture?** A: Reviews show the reviewer's name and a verified badge (if applicable). Profile pictures depend on the review app data.
-

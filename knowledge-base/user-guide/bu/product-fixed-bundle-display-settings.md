@@ -79,4 +79,3 @@ Adjust styles or text until it matches your store’s branding.
 Click **Save** to apply the settings.
 
 That’s it 🎉. Your **Product Fixed Bundle** now clearly shows all included items with a styled product list. This helps build trust with shoppers by making bundles transparent and easy to understand, while still presenting them in a way that fits your brand.
-

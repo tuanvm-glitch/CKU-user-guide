@@ -1,7 +1,5 @@
 # How to set up
 
-# How to set up
-
 Increase your average order value by showing relevant product recommendations at checkout. Buyers see upsell offers and can add items to their order with one click — no page reload needed.
 
 {% hint style="warning" %}
@@ -488,4 +486,3 @@ Deletion is permanent. The offer and its analytics data cannot be recovered.
 * **Schedule seasonal offers in advance** — set start/end dates and priority. The system handles transitions automatically.
 * **Test at checkout** — use a real test order to verify conditions, discounts, and block placement. The admin preview shows sample data, but the checkout shows real behavior.
 * **Use AI Smart Pick** if you're unsure which products to recommend — the algorithm learns from purchase patterns.
-

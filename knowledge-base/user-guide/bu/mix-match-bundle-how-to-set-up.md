@@ -173,4 +173,3 @@ Customers will choose one product for each of the three options and see the savi
 {% endhint %}
 
 The Mix-match bundle feature is a powerful tool to increase your store's AOV while delighting your customers with flexible options. By setting up attractive bundles and promoting them effectively, you can drive more sales and improve customer satisfaction. Start using Mix-match bundles today and watch your revenue grow!
-

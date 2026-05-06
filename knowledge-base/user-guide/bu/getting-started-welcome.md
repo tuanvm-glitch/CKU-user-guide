@@ -70,4 +70,3 @@ Have questions or need support? We’re here for you.
 We built AOV.ai Bundle to make increasing your store revenue **simple, flexible, and fun**. Whether you’re a first-time merchant or a seasoned Shopify pro, you’ll find tools here that fit your business strategy.
 
 Dive in, start with one bundle type, and watch your AOV grow
-

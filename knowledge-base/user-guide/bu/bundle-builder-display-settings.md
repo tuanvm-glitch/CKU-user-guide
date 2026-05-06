@@ -177,4 +177,3 @@ Click **Save** to apply the settings.
 
 Your Bundle Builder display is all set! 🎉\
 A well-styled widget makes shopping fun, clear, and rewarding, so customers add more and you grow your AOV. Preview, save, and enjoy watching your bundles shine! ✨
-

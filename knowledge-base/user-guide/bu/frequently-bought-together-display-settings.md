@@ -143,4 +143,3 @@ Look at the **live preview panel on the right** to see how the widget appears on
 Make adjustments in Theme or Content tabs until the widget matches your store’s design and language.
 
 When satisfied, click **Save** to apply your settings.
-
